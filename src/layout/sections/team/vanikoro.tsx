@@ -10,8 +10,8 @@ export default class Vanikoro extends Component<Props, State> {
   render() {
     return (
             <div
-              data-aos="fade-down"
-              data-aos-duration="1500"
+              data-aos="fade-up"
+              data-aos-duration="2500"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-7 contacts-container"
             >

@@ -45,13 +45,13 @@ export default class Team extends Component<Props, State> {
           <div className="to-flex to-flex-evenly width-team koto to-large">
             </div>
             <div className="to-flex to-flex-evenly width-team koto to-large to-bottom-space">
-            <Vanikoro />
             <Squid />
             <Ercknard />
             <Seqsee />
             <Loma />
             <Jekz />
             <Boehmerang />
+            <Vanikoro />
           </div>
         </div>
         <Image

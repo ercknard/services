@@ -11,7 +11,7 @@ export default class Ercknard extends Component<Props, State> {
     return (
             <div
               data-aos="fade-down"
-              data-aos-duration="1500"
+              data-aos-duration="1250"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-2 contacts-container"
             >

@@ -26,7 +26,7 @@ var Ercknard = /** @class */ (function (_super) {
         return _this;
     }
     Ercknard.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-2 contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "1250", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-2 contacts-container" },
             react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/loma3.webp", width: "512", height: "512" }),
             react_1["default"].createElement("div", { className: "details-bg" },
                 react_1["default"].createElement("div", { className: "contact-name valor-name" }, " Baydroid "),

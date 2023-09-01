@@ -11,7 +11,7 @@ export default class Seqsee extends Component<Props, State> {
     return (
             <div
               data-aos="fade-up"
-              data-aos-duration="2000"
+              data-aos-duration="1500"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-3 contacts-container"
             >
