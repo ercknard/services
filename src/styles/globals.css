@@ -3826,9 +3826,8 @@ li {
 @media (max-width: 768px) {
   .gallery {
     --s: 200px; /* the size */
-    margin-top: 5rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 4.5rem;
+    margin-left: 4.5rem;
   }
 }
 
