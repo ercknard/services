@@ -42,8 +42,8 @@ export default class Team extends Component<Props, State> {
               team member if you have an urgent request. Thank you.
             </div>
           </div>
-          <div className="to-flex to-flex-evenly width-team koto to-large">
-            </div>
+          {/* <div className="to-flex to-flex-evenly width-team koto to-large">
+            </div> */}
             <div className="to-flex to-flex-evenly width-team koto to-large to-bottom-space">
             <Squid />
             <Ercknard />
