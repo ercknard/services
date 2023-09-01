@@ -22,6 +22,7 @@ var image_1 = require("next/image");
 var jekz_1 = require("./team/jekz");
 var boehmerang_1 = require("./team/boehmerang");
 var loma_1 = require("./team/loma");
+var vanikoro_1 = require("./team/vanikoro");
 var Team = /** @class */ (function (_super) {
     __extends(Team, _super);
     function Team() {
@@ -50,7 +51,9 @@ var Team = /** @class */ (function (_super) {
                             react_1["default"].createElement("span", { className: "we-logo-second to-bold" }, "Admin")),
                         " ",
                         "team member if you have an urgent request. Thank you.")),
-                react_1["default"].createElement("div", { className: "to-flex to-flex-evenly width-team koto to-large" },
+                react_1["default"].createElement("div", { className: "to-flex to-flex-evenly width-team koto to-large" }),
+                react_1["default"].createElement("div", { className: "to-flex to-flex-evenly width-team koto to-large to-bottom-space" },
+                    react_1["default"].createElement(vanikoro_1["default"], null),
                     react_1["default"].createElement(squid_1["default"], null),
                     react_1["default"].createElement(ercknard_1["default"], null),
                     react_1["default"].createElement(seqsee_1["default"], null),

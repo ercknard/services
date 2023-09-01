@@ -13,7 +13,7 @@ export default class Squid extends Component<Props, State> {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-anchor-placement="bottom-bottom"
-              className="contacts-container"
+              className="contacts-container-1 contacts-container"
             >
               <Image
                 className="contact-mug"

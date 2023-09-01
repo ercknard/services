@@ -26,7 +26,7 @@ var Jekz = /** @class */ (function (_super) {
         return _this;
     }
     Jekz.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "2500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "2500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-5 contacts-container" },
             react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/seqsee.webp", width: "512", height: "512" }),
             react_1["default"].createElement("div", { className: "details-bg" },
                 react_1["default"].createElement("div", { className: "contact-name jekz-name" }, " SeqSee "),

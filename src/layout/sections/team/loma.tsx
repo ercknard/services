@@ -13,7 +13,7 @@ export default class Loma extends Component<Props, State> {
               data-aos="fade-down"
               data-aos-duration="2000"
               data-aos-anchor-placement="bottom-bottom"
-              className="contacts-container"
+              className="contacts-container-4 contacts-container"
             >
               <Image
                 className="contact-mug"

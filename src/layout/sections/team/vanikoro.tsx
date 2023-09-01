@@ -5,36 +5,36 @@ import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
 import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlined";
 type Props = {};
 type State = {};
-export default class Jekz extends Component<Props, State> {
+export default class Vanikoro extends Component<Props, State> {
   state = {};
   render() {
     return (
-<div
-              data-aos="fade-up"
-              data-aos-duration="2500"
+            <div
+              data-aos="fade-down"
+              data-aos-duration="1500"
               data-aos-anchor-placement="bottom-bottom"
-              className="contacts-container-5 contacts-container"
+              className="contacts-container-7 contacts-container"
             >
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/seqsee.webp"
+                src="/images/jekz.webp"
                 width="512"
                 height="512"
               />
               <div className="details-bg">
-                <div className="contact-name jekz-name"> SeqSee </div>
+                <div className="contact-name vani-name"> Vanikoro</div>
                 <div className="contact-description">
                   <ul>
-                    <li className="jekz-list"> Admin </li>
-                    <li className="jekz-list"> Consultant </li>
-                    <li className="jekz-list"> Developer</li>
+                    <li className="vani-list"> Junior Developer</li>
+                    <li className="no-list"> </li>
+                    <li className="no-list"> </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
-                    className="contact-button jekz"
-                    href="https://discord.com/users/412122437954830337"
+                    className="contact-button vani"
+                    href="https://discord.com/users/426261793426636804"
                     target="_blank"
                   >
                     <div>
@@ -44,8 +44,8 @@ export default class Jekz extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button jekz t"
-                    href="mailto:seqsee@cryptech.services"
+                    className="contact-button vani t"
+                    href="mailto:baydroid@cryptech.services"
                     target="_blank"
                   >
                     <div>

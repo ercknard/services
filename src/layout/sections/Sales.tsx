@@ -37,7 +37,8 @@ export default class Sales extends Component<Props, State> {
               <div className="color-effect"> in Cryptech Services, </div>
             </div>
             <p className="sale-welcome-sub-message">
-              {" "}
+            We specialize in providing robust web3 and fullstack development services, with a primary focus on <span className="we-logo-first">cryptocurrency</span>, <span className="we-logo-second"> blockchain technology</span>, and <span className="we-logo-fourth"> web design</span>. Additionally, we offer expert services in the realms of <span className="we-logo-third"> cybersecurity </span>, as well as <span className="we-logo-fifth">technical support </span> and<span className="we-logo-fifth"> consultation.</span>
+              {/* {" "}
               We provide web3 and fullstack development services and support,
               primarily focusing on{" "}
               <span className="we-logo-first">cryptocurrency </span>,{" "}
@@ -47,7 +48,7 @@ export default class Sales extends Component<Props, State> {
               <span className="we-logo-fifth">
                 {" "}
                 technical support / consultation.{" "}
-              </span>
+              </span> */}
             </p>
             <div className="to-flex to-gap-1">
               <a className="project-button to-primary" href="#sales">

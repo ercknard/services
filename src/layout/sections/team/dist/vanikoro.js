@@ -18,35 +18,35 @@ var react_1 = require("react");
 var image_1 = require("next/image");
 var ContactPageOutlined_1 = require("@mui/icons-material/ContactPageOutlined");
 var AlternateEmailOutlined_1 = require("@mui/icons-material/AlternateEmailOutlined");
-var Squid = /** @class */ (function (_super) {
-    __extends(Squid, _super);
-    function Squid() {
+var Vanikoro = /** @class */ (function (_super) {
+    __extends(Vanikoro, _super);
+    function Vanikoro() {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.state = {};
         return _this;
     }
-    Squid.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-1 contacts-container" },
-            react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/valor3.webp", width: "512", height: "512" }),
+    Vanikoro.prototype.render = function () {
+        return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-7 contacts-container" },
+            react_1["default"].createElement(image_1["default"], { className: "contact-mug", alt: "front-logo", src: "/images/jekz.webp", width: "512", height: "512" }),
             react_1["default"].createElement("div", { className: "details-bg" },
-                react_1["default"].createElement("div", { className: "contact-name squid-name" }, " Boehmerang "),
+                react_1["default"].createElement("div", { className: "contact-name vani-name" }, " Vanikoro"),
                 react_1["default"].createElement("div", { className: "contact-description" },
                     react_1["default"].createElement("ul", null,
-                        react_1["default"].createElement("li", { className: "squid-list" }, " CAD Designer "),
-                        react_1["default"].createElement("li", { className: "squid-list" }, " Consultant "),
-                        react_1["default"].createElement("li", { className: "squid-list" }, " Developer "))),
+                        react_1["default"].createElement("li", { className: "vani-list" }, " Junior Developer"),
+                        react_1["default"].createElement("li", { className: "no-list" }, " "),
+                        react_1["default"].createElement("li", { className: "no-list" }, " "))),
                 react_1["default"].createElement("div", { className: "to-flex to-gap z" },
-                    react_1["default"].createElement("a", { className: "contact-button squid", href: "https://discord.com/users/161986311832600576", target: "_blank" },
+                    react_1["default"].createElement("a", { className: "contact-button vani", href: "https://discord.com/users/426261793426636804", target: "_blank" },
                         react_1["default"].createElement("div", null,
                             react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                 react_1["default"].createElement(ContactPageOutlined_1["default"], null),
                                 " Discord"))),
-                    react_1["default"].createElement("a", { className: "contact-button squid t", href: "mailto:boehmerang@cryptech.services", target: "_blank" },
+                    react_1["default"].createElement("a", { className: "contact-button vani t", href: "mailto:baydroid@cryptech.services", target: "_blank" },
                         react_1["default"].createElement("div", null,
                             react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                 react_1["default"].createElement(AlternateEmailOutlined_1["default"], null),
                                 " Email")))))));
     };
-    return Squid;
+    return Vanikoro;
 }(react_1.Component));
-exports["default"] = Squid;
+exports["default"] = Vanikoro;

@@ -155,7 +155,7 @@ export default class Support extends Component<Props, State> {
                   <figure className="r">
                     <span className="to-center">
                       <Image
-                        className="car b4"
+                        className="car b7"
                         src="/images/undraw_heatmap_uyye.svg"
                         alt="car"
                         width="500"
@@ -165,7 +165,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-quaternary s">
+                        <span className="text-motion section-title project-title to-seventh s">
                           {" "}
                           Web Design
                         </span>{" "}
@@ -184,7 +184,7 @@ export default class Support extends Component<Props, State> {
                   <figure className="r">
                     <span className="to-center">
                       <Image
-                        className="car b5"
+                        className="car b4"
                         src="/images/undraw_image_viewer_re_7ejc.svg"
                         alt="car"
                         width="500"
@@ -194,7 +194,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-quinary s">
+                        <span className="text-motion section-title project-title to-quaternary s">
                           {" "}
                           Graphic Design
                         </span>
@@ -213,7 +213,7 @@ export default class Support extends Component<Props, State> {
                   <figure className="r">
                     <span className="to-center">
                       <Image
-                        className="car b6"
+                        className="car b5"
                         src="/images/undraw_instant_support_re_s7un.svg"
                         alt="car"
                         width="500"
@@ -223,7 +223,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-primary s">
+                        <span className="text-motion section-title project-title to-quinary s">
                           {" "}
                           Technical Consultation
                         </span>{" "}
@@ -295,7 +295,7 @@ export default class Support extends Component<Props, State> {
               >
                 <label htmlFor="slide-4">
                   <div className="icon">
-                    <DesignServicesOutlinedIcon className="we-logo-fourth ico" />
+                    <DesignServicesOutlinedIcon className="we-logo-seventh ico" />
                   </div>
                   <div className="title">Web Design</div>
                 </label>
@@ -308,7 +308,7 @@ export default class Support extends Component<Props, State> {
               >
                 <label htmlFor="slide-5">
                   <div className="icon">
-                    <DrawOutlinedIcon className="we-logo-fifth ico" />
+                    <DrawOutlinedIcon className="we-logo-fourth ico" />
                   </div>
                   <div className="title">Graphic Design</div>
                 </label>
@@ -321,7 +321,7 @@ export default class Support extends Component<Props, State> {
               >
                 <label htmlFor="slide-6">
                   <div className="icon">
-                    <SupportAgentOutlinedIcon className="we-logo-first ico" />
+                    <SupportAgentOutlinedIcon className="we-logo-fifth ico" />
                   </div>
                   <div className="title">Technical Consultation</div>
                 </label>
