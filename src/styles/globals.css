@@ -4045,7 +4045,7 @@ li {
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
-  text-transform: capitalize;
+  text-transform:uppercase;
   margin-top: 1rem;
   text-align: center;
   text-shadow: 1px 1px 1px black;
@@ -4056,7 +4056,7 @@ li {
   color: #ffffff;
   font-size: var(--quaternary-font);
   font-weight: 700;
-  text-transform: capitalize;
+  text-transform:capitalize;
   text-align: center;
   text-shadow: 1px 1px 1px black;
   margin-bottom: 1rem;
@@ -4070,6 +4070,7 @@ li {
   padding-bottom: 1rem;
   /* transform: scale(1.1); */
   display: none;
+  transform: translateZ(100px) !important;
 }
 
 .flip-card:hover .flip-card-front {
@@ -4078,7 +4079,7 @@ li {
 }
 
 .flip-card:hover .flip-card-back {
-  transform: rotateY(0deg);
+  transform: rotateY(0deg) scale(.99);
 }
 
 .to-mug {
