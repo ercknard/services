@@ -15,6 +15,25 @@ export default class Loma extends Component<Props, State> {
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-4 contacts-container"
             >
+                                  <div className="flip-card">
+                                  <div className="flip-card-front">
+        <div className="inner">
+              <Image
+                className="contact-mug to-mug"
+                alt="front-logo"
+                src="/images/squid.webp"
+                width="512"
+                height="512"
+              /> 
+              <h3> Squidicuz </h3>
+              <h4 > Admin </h4>
+              <p className="to-sixth1">
+                        ❖
+          </p>
+              </div>
+              </div>
+<div className="flip-card-back to-squid">
+        <div className="inner">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -55,6 +74,9 @@ export default class Loma extends Component<Props, State> {
                     </div>
                   </a>
                 </div>
+                </div>
+                </div>
+</div>
               </div>
             </div>
     );

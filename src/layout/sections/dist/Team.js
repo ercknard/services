@@ -52,13 +52,13 @@ var Team = /** @class */ (function (_super) {
                         " ",
                         "team member if you have an urgent request. Thank you.")),
                 react_1["default"].createElement("div", { className: "to-flex to-flex-evenly width-team koto to-large to-bottom-space" },
+                    react_1["default"].createElement(vanikoro_1["default"], null),
                     react_1["default"].createElement(squid_1["default"], null),
                     react_1["default"].createElement(ercknard_1["default"], null),
                     react_1["default"].createElement(seqsee_1["default"], null),
                     react_1["default"].createElement(loma_1["default"], null),
                     react_1["default"].createElement(jekz_1["default"], null),
-                    react_1["default"].createElement(boehmerang_1["default"], null),
-                    react_1["default"].createElement(vanikoro_1["default"], null))),
+                    react_1["default"].createElement(boehmerang_1["default"], null))),
             react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: "front-logo", src: "/images/team3.webp", width: "3620", height: "1670" }),
             react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/to-center-up.webp", width: "3620", height: "1377" })));
     };

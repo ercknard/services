@@ -15,6 +15,26 @@ export default class Seqsee extends Component<Props, State> {
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-3 contacts-container"
             >
+                                  <div className="flip-card">
+                                  <div className="flip-card-front">
+        <div className="inner">
+              <Image
+                className="contact-mug to-mug"
+                alt="front-logo"
+                src="/images/jekz8.webp"
+                width="512"
+                height="512"
+              />
+              <h3> Jekz </h3>
+              <h4> Penetration Tester </h4>
+              <p className="to-tertiary1">
+                        ❖
+          </p>
+              </div>
+              </div>
+
+<div className="flip-card-back to-jekz">
+        <div className="inner">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -56,6 +76,8 @@ export default class Seqsee extends Component<Props, State> {
                   </a>
                 </div>
               </div>
+              </div>
+              </div></div>
             </div>
     );
   }

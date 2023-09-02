@@ -9,12 +9,33 @@ export default class Vanikoro extends Component<Props, State> {
   state = {};
   render() {
     return (
+
             <div
               data-aos="fade-up"
-              data-aos-duration="2500"
+              data-aos-duration="750"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-7 contacts-container"
             >
+                    <div className="flip-card">
+
+<div className="flip-card-front">
+        <div className="inner">
+              <Image
+                className="contact-mug to-mug"
+                alt="front-logo"
+                src="/images/vani-1.webp"
+                width="512"
+                height="512"
+              />
+                        <h3>Vanikoro</h3>
+                        <h4> Developer </h4>
+                        <p className="to-octa1">
+                        ❖
+          </p>
+                </div>
+              </div>
+                    <div className="flip-card-back to-vani">
+        <div className="inner">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -34,7 +55,7 @@ export default class Vanikoro extends Component<Props, State> {
                 <div className="to-flex to-gap z">
                   <a
                     className="contact-button vani"
-                    href="https://discord.com/users/426261793426636804"
+                    href="https://discord.com/users/500376620708659212"
                     target="_blank"
                   >
                     <div>
@@ -45,7 +66,7 @@ export default class Vanikoro extends Component<Props, State> {
                   </a>
                   <a
                     className="contact-button vani t"
-                    href="mailto:baydroid@cryptech.services"
+                    href="mailto:vanikoro@cryptech.services"
                     target="_blank"
                   >
                     <div>
@@ -55,7 +76,10 @@ export default class Vanikoro extends Component<Props, State> {
                     </div>
                   </a>
                 </div>
+                </div>
+                </div>
               </div>
+            </div>
             </div>
     );
   }

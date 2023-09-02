@@ -15,6 +15,25 @@ export default class Jekz extends Component<Props, State> {
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-5 contacts-container"
             >
+                                  <div className="flip-card">
+                                  <div className="flip-card-front">
+        <div className="inner">
+              <Image
+                className="contact-mug to-mug"
+                alt="front-logo"
+                src="/images/seqsee.webp"
+                width="512"
+                height="512"
+              />
+              <h3> SeqSee </h3>
+              <h4> Admin </h4>
+              <p className="to-quaternary1">
+                        ❖
+          </p>
+              </div> </div>
+
+<div className="flip-card-back to-seqsee">
+        <div className="inner">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -57,6 +76,9 @@ export default class Jekz extends Component<Props, State> {
                 </div>
               </div>
             </div>
+            </div>
+            </div>
+        </div>
     );
   }
 }

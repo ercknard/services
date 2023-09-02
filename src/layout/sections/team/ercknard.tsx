@@ -15,6 +15,26 @@ export default class Ercknard extends Component<Props, State> {
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-2 contacts-container"
             >
+                                  <div className="flip-card">
+                                  <div className="flip-card-front">
+        <div className="inner">
+              <Image
+                className="contact-mug to-mug"
+                alt="front-logo"
+                src="/images/loma3.webp"
+                width="512"
+                height="512"
+              />
+              <h3> Baydroid </h3>
+              <h4> Developer </h4>
+              <p className="to-secondary1">
+                        ❖
+          </p>
+                            </div>
+            </div>
+
+<div className="flip-card-back to-loma">
+        <div className="inner">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -55,6 +75,9 @@ export default class Ercknard extends Component<Props, State> {
                     </div>
                   </a>
                 </div>
+              </div>
+            </div>
+            </div>
               </div>
             </div>
     );
