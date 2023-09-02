@@ -16,7 +16,7 @@ export default class Squid extends Component<Props, State> {
               className="contacts-container-1 contacts-container"
             >
                                   <div className="flip-card">
-                                  <div className="flip-card-front">
+                                  <div className="flip-card-front to-boe">
         <div className="inner">
               <Image
                 className="contact-mug to-mug"

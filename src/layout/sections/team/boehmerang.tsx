@@ -16,7 +16,7 @@ export default class Boehmerang extends Component<Props, State> {
               className="contacts-container-6 contacts-container"
             >
                                   <div className="flip-card">
-                                  <div className="flip-card-front">
+                                  <div className="flip-card-front to-erc">
         <div className="inner">
               <Image
                 className="contact-mug to-mug"

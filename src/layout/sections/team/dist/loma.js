@@ -28,7 +28,7 @@ var Loma = /** @class */ (function (_super) {
     Loma.prototype.render = function () {
         return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "1750", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-4 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
-                react_1["default"].createElement("div", { className: "flip-card-front" },
+                react_1["default"].createElement("div", { className: "flip-card-front to-squid" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/squid.webp", width: "512", height: "512" }),
                         react_1["default"].createElement("h3", null, " Squidicuz "),

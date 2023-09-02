@@ -28,7 +28,7 @@ var Ercknard = /** @class */ (function (_super) {
     Ercknard.prototype.render = function () {
         return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "1250", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-2 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
-                react_1["default"].createElement("div", { className: "flip-card-front" },
+                react_1["default"].createElement("div", { className: "flip-card-front to-loma" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/loma3.webp", width: "512", height: "512" }),
                         react_1["default"].createElement("h3", null, " Baydroid "),

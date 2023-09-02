@@ -16,7 +16,7 @@ export default class Ercknard extends Component<Props, State> {
               className="contacts-container-2 contacts-container"
             >
                                   <div className="flip-card">
-                                  <div className="flip-card-front">
+                                  <div className="flip-card-front to-loma">
         <div className="inner">
               <Image
                 className="contact-mug to-mug"

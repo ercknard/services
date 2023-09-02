@@ -28,7 +28,7 @@ var Jekz = /** @class */ (function (_super) {
     Jekz.prototype.render = function () {
         return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "2000", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-5 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
-                react_1["default"].createElement("div", { className: "flip-card-front" },
+                react_1["default"].createElement("div", { className: "flip-card-front to-seqsee" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/seqsee.webp", width: "512", height: "512" }),
                         react_1["default"].createElement("h3", null, " SeqSee "),

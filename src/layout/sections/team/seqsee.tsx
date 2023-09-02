@@ -16,7 +16,7 @@ export default class Seqsee extends Component<Props, State> {
               className="contacts-container-3 contacts-container"
             >
                                   <div className="flip-card">
-                                  <div className="flip-card-front">
+                                  <div className="flip-card-front to-jekz">
         <div className="inner">
               <Image
                 className="contact-mug to-mug"
