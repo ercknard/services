@@ -18,6 +18,7 @@ export default class Seqsee extends Component<Props, State> {
                                   <div className="flip-card">
                                   <div className="flip-card-front to-jekz">
         <div className="inner">
+        <div className="to-jekz-bg">
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
@@ -25,6 +26,7 @@ export default class Seqsee extends Component<Props, State> {
                 width="512"
                 height="512"
               />
+              </div>
               <h3> Jekz </h3>
               <h4> Penetration Tester </h4>
               <p className="to-tertiary1">

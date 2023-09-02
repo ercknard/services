@@ -18,6 +18,7 @@ export default class Boehmerang extends Component<Props, State> {
                                   <div className="flip-card">
                                   <div className="flip-card-front to-erc">
         <div className="inner">
+        <div className="to-erk-bg">
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
@@ -25,6 +26,7 @@ export default class Boehmerang extends Component<Props, State> {
                 width="512"
                 height="512"
               />
+              </div>
               <h3> Ercknard </h3>
               <h4> Developer </h4>
               <p className="to-quinary1">

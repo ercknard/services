@@ -18,6 +18,7 @@ export default class Ercknard extends Component<Props, State> {
                                   <div className="flip-card">
                                   <div className="flip-card-front to-loma">
         <div className="inner">
+        <div className="to-loma-bg">
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
@@ -25,6 +26,7 @@ export default class Ercknard extends Component<Props, State> {
                 width="512"
                 height="512"
               />
+              </div>
               <h3> Baydroid </h3>
               <h4> Developer </h4>
               <p className="to-secondary1">
