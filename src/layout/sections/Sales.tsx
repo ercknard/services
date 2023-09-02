@@ -51,13 +51,24 @@ export default class Sales extends Component<Props, State> {
               </span> */}
             </p>
             <div className="to-flex to-gap-1">
-              <a className="project-button to-primary" href="#sales">
+              <a className="project-button to-seventh" href="#sales">
                 <div>
                   <button type="button" className="home-button-txt">
                     <AutoStoriesIcon /> Read more
                   </button>
                 </div>
               </a>
+              <a
+                  className="project-button to-seventh"
+                  href="https://github.com/Cryptech-Services"
+                  target="_blank"
+                >
+                  <div>
+                    <button type="button" className="home-button-txt">
+                      <GitHubIcon /> Github
+                    </button>
+                  </div>
+                </a>
             </div>
           </div>
           <div className="we-do-container">

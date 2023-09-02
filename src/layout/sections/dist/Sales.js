@@ -21,6 +21,7 @@ var PrecisionManufacturingOutlined_1 = require("@mui/icons-material/PrecisionMan
 var ShieldOutlined_1 = require("@mui/icons-material/ShieldOutlined");
 var DesignServicesOutlined_1 = require("@mui/icons-material/DesignServicesOutlined");
 var SupportAgentOutlined_1 = require("@mui/icons-material/SupportAgentOutlined");
+var GitHub_1 = require("@mui/icons-material/GitHub");
 var AutoStories_1 = require("@mui/icons-material/AutoStories");
 var Sales = /** @class */ (function (_super) {
     __extends(Sales, _super);
@@ -50,11 +51,16 @@ var Sales = /** @class */ (function (_super) {
                         " and",
                         react_1["default"].createElement("span", { className: "we-logo-fifth" }, " consultation.")),
                     react_1["default"].createElement("div", { className: "to-flex to-gap-1" },
-                        react_1["default"].createElement("a", { className: "project-button to-primary", href: "#sales" },
+                        react_1["default"].createElement("a", { className: "project-button to-seventh", href: "#sales" },
                             react_1["default"].createElement("div", null,
                                 react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
                                     react_1["default"].createElement(AutoStories_1["default"], null),
-                                    " Read more"))))),
+                                    " Read more"))),
+                        react_1["default"].createElement("a", { className: "project-button to-seventh", href: "https://github.com/Cryptech-Services", target: "_blank" },
+                            react_1["default"].createElement("div", null,
+                                react_1["default"].createElement("button", { type: "button", className: "home-button-txt" },
+                                    react_1["default"].createElement(GitHub_1["default"], null),
+                                    " Github"))))),
                 react_1["default"].createElement("div", { className: "we-do-container" },
                     react_1["default"].createElement("div", { className: "we-do", "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },
                         react_1["default"].createElement(CurrencyBitcoinOutlined_1["default"], { className: "we-logo we-logo-first" }),
