@@ -38,6 +38,7 @@ export default class Vanikoro extends Component<Props, State> {
               </div>
                     <div className="flip-card-back to-vani">
         <div className="inner">
+        <div className="to-vani-bg1">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -45,6 +46,7 @@ export default class Vanikoro extends Component<Props, State> {
                 width="512"
                 height="512"
               />
+              </div>
               <div className="details-bg">
                 <div className="contact-name vani-name"> Vanikoro</div>
                 <div className="contact-description">

@@ -35,6 +35,7 @@ export default class Squid extends Component<Props, State> {
               </div> </div>
 <div className="flip-card-back to-boe">
         <div className="inner">
+        <div className="to-boe-bg1">
               <Image
                 className="contact-mug"
                 alt="front-logo"
@@ -42,6 +43,7 @@ export default class Squid extends Component<Props, State> {
                 width="512"
                 height="512"
               />
+              </div>
               <div className="details-bg">
                 <div className="contact-name squid-name"> Boehmerang </div>
                 <div className="contact-description">
