@@ -28,7 +28,8 @@ export default class Loma extends Component<Props, State> {
               /> 
               </div>
               <h3> Squidicuz </h3>
-              <h4><span className="to-sixth1">❖</span> Admin <span className="to-sixth1">❖</span></h4>
+              {/* <h4><span className="to-sixth1">❖</span> Admin <span className="to-sixth1">❖</span></h4> */}
+              <h4> Admin </h4>
               <p className="to-sixth1">
                         ❖
           </p>

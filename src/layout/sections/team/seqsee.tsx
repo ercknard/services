@@ -28,7 +28,8 @@ export default class Seqsee extends Component<Props, State> {
               />
               </div>
               <h3> Jekz </h3>
-              <h4><span className="to-tertiary1">❖</span> Penetration Tester <span className="to-tertiary1">❖</span></h4>
+              {/* <h4><span className="to-tertiary1">❖</span> Penetration Tester <span className="to-tertiary1">❖</span></h4> */}
+              <h4> Penetration Tester </h4>
               <p className="to-tertiary1">
                         ❖
           </p>

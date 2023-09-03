@@ -4046,7 +4046,7 @@ li {
   font-weight: 700;
   line-height: 40px;
   text-transform:uppercase;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   text-align: center;
   text-shadow: 10px 5px 1px black;
   /* -webkit-box-reflect: below -20px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1)); */
@@ -4094,6 +4094,48 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .to-vani {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/vani-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.to-boe {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/valor3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.to-jekz {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/jekz8.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.to-squid {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/squid.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.to-seqsee {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/seqsee.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.to-loma {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/loma3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.to-erc {
+  background: linear-gradient(to top, black, transparent 70%), url("/images/ercknard3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* .to-vani {
   background: linear-gradient(to top, rgb(var(--octa)), transparent 70%), url("/images/vani-1.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -4133,7 +4175,7 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background: linear-gradient(to top, rgb(var(--quinary)), transparent 70%), url("/images/ercknard3.webp");
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
 .to-vani:after, .to-boe:after, .to-jekz:after, .to-squid:after, .to-seqsee:after, .to-erc:after, .to-loma:after {
   content: "";

@@ -30,7 +30,8 @@ export default class Vanikoro extends Component<Props, State> {
               />
               </div>
                         <h3>Vanikoro</h3>
-                        <h4><span className="to-octa1">❖</span> Developer <span className="to-octa1">❖</span></h4>
+                        {/* <h4><span className="to-octa1">❖</span> Developer <span className="to-octa1">❖</span></h4> */}
+                        <h4> Developer </h4>
                         <p className="to-octa1">
                         ❖
           </p>
