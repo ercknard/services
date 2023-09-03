@@ -28,7 +28,7 @@ export default class Boehmerang extends Component<Props, State> {
               />
               </div>
               <h3> Ercknard </h3>
-              <h4> Developer </h4>
+              <h4><span className="to-quinary1">❖ </span> Developer <span className="to-quinary1"> ❖</span></h4>
               <p className="to-quinary1">
                         ❖
           </p>

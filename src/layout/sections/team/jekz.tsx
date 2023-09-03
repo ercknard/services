@@ -28,7 +28,7 @@ export default class Jekz extends Component<Props, State> {
               />
               </div>
               <h3> SeqSee </h3>
-              <h4> Admin </h4>
+              <h4><span className="to-quaternary1">❖</span> Admin <span className="to-quaternary1">❖</span></h4>
               <p className="to-quaternary1">
                         ❖
           </p>

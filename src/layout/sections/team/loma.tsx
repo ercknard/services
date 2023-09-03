@@ -18,7 +18,7 @@ export default class Loma extends Component<Props, State> {
                                   <div className="flip-card">
                                   <div className="flip-card-front to-squid">
         <div className="inner">
-        <div className="to-jekz-bg">
+        <div className="to-squid-bg">
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
@@ -28,7 +28,7 @@ export default class Loma extends Component<Props, State> {
               /> 
               </div>
               <h3> Squidicuz </h3>
-              <h4 > Admin </h4>
+              <h4><span className="to-sixth1">❖</span> Admin <span className="to-sixth1">❖</span></h4>
               <p className="to-sixth1">
                         ❖
           </p>
@@ -36,7 +36,7 @@ export default class Loma extends Component<Props, State> {
               </div>
 <div className="flip-card-back to-squid">
         <div className="inner">
-        <div className="to-jekz-bg1">
+        <div className="to-squid-bg1">
               <Image
                 className="contact-mug"
                 alt="front-logo"

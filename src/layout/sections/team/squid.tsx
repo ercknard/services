@@ -28,7 +28,7 @@ export default class Squid extends Component<Props, State> {
               />
               </div>
               <h3>Boehmerang</h3>
-              <h4> Developer </h4>
+              <h4><span className="to-primary1">❖</span> Developer <span className="to-primary1">❖</span></h4>
               <p className="to-primary1">
                         ❖
           </p>

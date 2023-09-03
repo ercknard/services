@@ -28,7 +28,7 @@ export default class Ercknard extends Component<Props, State> {
               />
               </div>
               <h3> Baydroid </h3>
-              <h4> Developer </h4>
+              <h4><span className="to-secondary1">❖</span> Developer <span className="to-secondary1">❖</span></h4>
               <p className="to-secondary1">
                         ❖
           </p>
