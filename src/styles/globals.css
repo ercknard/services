@@ -4093,7 +4093,7 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   padding: 1rem;
 }
 
-.to-vani {
+/* .to-vani {
   background: linear-gradient(to top, black, transparent 70%), url("/images/vani-1.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -4133,9 +4133,9 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background: linear-gradient(to top, black, transparent 70%), url("/images/ercknard3.webp");
   background-position: center;
   background-repeat: no-repeat;
-}
+} */
 
-/* .to-vani {
+.to-vani {
   background: linear-gradient(to top, rgb(var(--octa)), transparent 70%), url("/images/vani-1.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -4175,7 +4175,7 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   background: linear-gradient(to top, rgb(var(--quinary)), transparent 70%), url("/images/ercknard3.webp");
   background-position: center;
   background-repeat: no-repeat;
-} */
+}
 
 .to-vani:after, .to-boe:after, .to-jekz:after, .to-squid:after, .to-seqsee:after, .to-erc:after, .to-loma:after {
   content: "";
