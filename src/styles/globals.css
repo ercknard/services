@@ -4092,43 +4092,43 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 
 .to-vani {
-  background-image: url("/images/vani-1.webp");
+  background: linear-gradient(to top, rgb(var(--octa)), transparent 70%), url("/images/vani-1.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .to-boe {
-  background-image: url("/images/valor3.webp");
+  background: linear-gradient(to top, rgb(var(--primary)), transparent 70%), url("/images/valor3.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .to-jekz {
-  background-image: url("/images/jekz8.webp");
+  background: linear-gradient(to top, rgb(var(--tertiary)), transparent 70%), url("/images/jekz8.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .to-squid {
-  background-image: url("/images/squid.webp");
+  background: linear-gradient(to top, rgb(var(--seventh)), transparent 70%), url("/images/squid.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .to-seqsee {
-  background-image: url("/images/seqsee.webp");
+  background: linear-gradient(to top, rgb(var(--quaternary)), transparent 70%), url("/images/seqsee.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .to-loma {
-  background-image: url("/images/loma3.webp");
+  background: linear-gradient(to top, rgb(var(--secondary)), transparent 70%), url("/images/loma3.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .to-erc {
-  background-image: url("/images/ercknard3.webp");
+  background: linear-gradient(to top, rgb(var(--quinary)), transparent 70%), url("/images/ercknard3.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -4333,6 +4333,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 5px solid rgb(var(--quinary));
   z-index: -1;
+}
+
+.to-gradient-bg {
+  background: linear-gradient(45deg, black, transparent) !important; 
 }
 
 .to-primary1 {
