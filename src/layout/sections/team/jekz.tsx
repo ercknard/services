@@ -22,7 +22,7 @@ export default class Jekz extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
-                src="/images/seqsee-nobg.webp"
+                src="/images/seqsee-1-nobg.webp"
                 width="512"
                 height="512"
               />
@@ -41,7 +41,7 @@ export default class Jekz extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/seqsee.webp"
+                src="/images/seqsee-1.webp"
                 width="512"
                 height="512"
               />
