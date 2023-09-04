@@ -4323,6 +4323,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--octa));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-boe-bg1::after {
@@ -4337,6 +4341,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--primary));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-jekz-bg1::after {
@@ -4351,6 +4359,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--tertiary));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-squid-bg1::after {
@@ -4365,6 +4377,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--seventh));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-seqsee-bg1::after {
@@ -4379,6 +4395,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--quaternary));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-loma-bg1::after {
@@ -4393,6 +4413,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--secondary));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-erk-bg1::after {
@@ -4407,6 +4431,10 @@ background: rgba( 255, 255, 255, 0.1 );
   margin-right: auto;
   border: 5px solid rgb(var(--quinary));
   z-index: -1;
+  box-shadow: 3px 3px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-gradient-bg {
