@@ -4088,8 +4088,10 @@ li {
   transform: rotateY(-180deg);
   /* -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0% 90%, 0% 10%) !important;
 clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0% 90%, 0% 10%) !important; */
--webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+/* -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+-webkit-clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
   padding: 1rem;
 }
 
@@ -4195,6 +4197,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--octa));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-boe-bg::after {
@@ -4209,6 +4215,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--primary));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-jekz-bg::after {
@@ -4223,6 +4233,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--tertiary));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-squid-bg::after {
@@ -4237,6 +4251,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--seventh));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-seqsee-bg::after {
@@ -4251,6 +4269,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--quaternary));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-loma-bg::after {
@@ -4265,6 +4287,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--secondary));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-erk-bg::after {
@@ -4279,6 +4305,10 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   margin-right: auto;
   border: 3px solid rgb(var(--quinary));
   z-index: -1;
+  box-shadow: 5px 5px 1px black;
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  background: rgba( 255, 255, 255, 0.1 );
 }
 
 .to-vani-bg1::after {

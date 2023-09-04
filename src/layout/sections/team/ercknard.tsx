@@ -22,7 +22,7 @@ export default class Ercknard extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
-                src="/images/loma3.webp"
+                src="/images/loma3-nobg.webp"
                 width="512"
                 height="512"
               />

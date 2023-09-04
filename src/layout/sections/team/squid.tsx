@@ -22,7 +22,7 @@ export default class Squid extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
-                src="/images/valor3.webp"
+                src="/images/valor3-nobg.webp"
                 width="512"
                 height="512"
               />

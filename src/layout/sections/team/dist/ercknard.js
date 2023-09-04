@@ -31,7 +31,7 @@ var Ercknard = /** @class */ (function (_super) {
                 react_1["default"].createElement("div", { className: "flip-card-front to-loma" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement("div", { className: "to-loma-bg" },
-                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/loma3.webp", width: "512", height: "512" })),
+                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/loma3-nobg.webp", width: "512", height: "512" })),
                         react_1["default"].createElement("h3", null, " Baydroid "),
                         react_1["default"].createElement("h4", null, " Developer "),
                         react_1["default"].createElement("p", { className: "to-secondary1" }, "\u2756"))),

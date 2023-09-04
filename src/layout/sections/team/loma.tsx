@@ -22,7 +22,7 @@ export default class Loma extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
-                src="/images/squid.webp"
+                src="/images/squid-nobg.webp"
                 width="512"
                 height="512"
               /> 

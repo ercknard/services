@@ -31,7 +31,7 @@ var Jekz = /** @class */ (function (_super) {
                 react_1["default"].createElement("div", { className: "flip-card-front to-seqsee" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement("div", { className: "to-seqsee-bg" },
-                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/seqsee.webp", width: "512", height: "512" })),
+                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/seqsee-nobg.webp", width: "512", height: "512" })),
                         react_1["default"].createElement("h3", null, " SeqSee "),
                         react_1["default"].createElement("h4", null, " Admin "),
                         react_1["default"].createElement("p", { className: "to-quaternary1" }, "\u2756")),

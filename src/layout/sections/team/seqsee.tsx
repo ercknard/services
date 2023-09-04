@@ -22,7 +22,7 @@ export default class Seqsee extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug"
                 alt="front-logo"
-                src="/images/jekz8.webp"
+                src="/images/jekz9-bg.webp"
                 width="512"
                 height="512"
               />
