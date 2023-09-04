@@ -4168,7 +4168,7 @@ clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
 }
 
 .to-loma {
-  background: linear-gradient(to top, rgb(var(--secondary)), transparent 70%), url("/images/loma3.webp");
+  background: linear-gradient(to top, rgb(var(--secondary)), transparent 70%), url("/images/loma1.webp");
   background-position: center;
   background-repeat: no-repeat;
 }
