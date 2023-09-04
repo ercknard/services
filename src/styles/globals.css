@@ -1856,7 +1856,7 @@ li {
   }
 }
 
-@media (max-width: 1600px) {
+@media (max-width: 1200px) {
   .z {
     flex-direction: column !important;
     gap: -1rem !important;
@@ -1895,9 +1895,22 @@ li {
   transition: 0.5s linear;
 }
 
+@media (max-width: 1920px) {
+  .details-bg {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 1367px) {
+  .details-bg {
+    margin-top: 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   .details-bg {
     min-height: unset;
+    margin-top: 1rem;
   }
 }
 
@@ -3966,6 +3979,12 @@ li {
   width: 100% !important;
   height: 30.25rem;
   min-height: 30.25rem !important;
+}
+
+@media (max-width: 768px) {
+  .flip-card {
+    height: 32.5rem;
+  }
 }
 
 .flip-card-front,
