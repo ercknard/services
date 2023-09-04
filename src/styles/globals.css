@@ -4200,7 +4200,7 @@ clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
 -webkit-backdrop-filter: blur( 4px );
-background: rgba( 255, 255, 255, 0.1 );
+background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-boe-bg::after {
@@ -4218,7 +4218,7 @@ background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-jekz-bg::after {
@@ -4236,7 +4236,7 @@ background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-squid-bg::after {
@@ -4254,7 +4254,7 @@ background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-seqsee-bg::after {
@@ -4272,7 +4272,7 @@ background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-loma-bg::after {
@@ -4290,7 +4290,7 @@ background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-erk-bg::after {
@@ -4308,7 +4308,7 @@ background: rgba( 255, 255, 255, 0.1 );
   box-shadow: 5px 5px 1px black;
   backdrop-filter: blur( 4px );
   -webkit-backdrop-filter: blur( 4px );
-  background: rgba( 255, 255, 255, 0.1 );
+  background: rgba( 255, 255, 255, 0.25 );
 }
 
 .to-vani-bg1::after {
