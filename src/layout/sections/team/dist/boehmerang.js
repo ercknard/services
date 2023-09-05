@@ -31,7 +31,7 @@ var Boehmerang = /** @class */ (function (_super) {
                 react_1["default"].createElement("div", { className: "flip-card-front to-erc" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement("div", { className: "to-erk-bg" },
-                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/ercknard3-nobg.webp", width: "512", height: "512" })),
+                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug to-special-erc", alt: "front-logo", src: "/images/ercknard3-nobg.webp", width: "512", height: "512" })),
                         react_1["default"].createElement("h3", null, " Ercknard "),
                         react_1["default"].createElement("h4", null, " Developer "),
                         react_1["default"].createElement("p", { className: "to-quinary1" }, "\u2756"))),

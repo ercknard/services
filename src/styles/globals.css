@@ -4103,15 +4103,21 @@ li {
   transform: rotateY(0deg) scale(.99);
 }
 
+.to-special-erc {
+  margin-left: 1.5rem;
+}
+
 .to-mug {
   transform: rotateY(-180deg);
   /* -webkit-clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0% 90%, 0% 10%) !important;
 clip-path: polygon(10% 0%, 90% 0%, 100% 10%, 100% 90%, 90% 100%, 10% 100%, 0% 90%, 0% 10%) !important; */
 /* -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
--webkit-clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
-clip-path: polygon(100% 0, 100% 65%, 50% 100%, 0 65%, 0 0);
+/* -webkit-clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
+clip-path: polygon(100% 0, 100% 65%, 50% 100%, 0 65%, 0 0); */
+border-radius: 50%;
   padding: 1rem;
+  filter: drop-shadow(3px 3px 3px black)
 }
 
 /* .to-vani {

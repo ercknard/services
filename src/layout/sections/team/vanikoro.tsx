@@ -18,7 +18,7 @@ export default class Vanikoro extends Component<Props, State> {
             >
                     <div className="flip-card">
 
-<div className="flip-card-front to-vani">
+<div className="flip-card-front to-vani ">
         <div className="inner">
           <div className="to-vani-bg">
               <Image

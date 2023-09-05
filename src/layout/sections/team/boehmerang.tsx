@@ -20,7 +20,7 @@ export default class Boehmerang extends Component<Props, State> {
         <div className="inner">
         <div className="to-erk-bg">
               <Image
-                className="contact-mug to-mug"
+                className="contact-mug to-mug to-special-erc"
                 alt="front-logo"
                 src="/images/ercknard3-nobg.webp"
                 width="512"
