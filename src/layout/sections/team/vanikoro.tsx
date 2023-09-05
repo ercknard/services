@@ -24,7 +24,7 @@ export default class Vanikoro extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug s1"
                 alt="front-logo"
-                src="/images/vani-1-nobg.webp"
+                src="/images/vani-2-nobg.webp"
                 width="512"
                 height="512"
               />
@@ -43,7 +43,7 @@ export default class Vanikoro extends Component<Props, State> {
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/vani-1.webp"
+                src="/images/vani-2.webp"
                 width="512"
                 height="512"
               />
