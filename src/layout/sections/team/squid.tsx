@@ -20,7 +20,7 @@ export default class Squid extends Component<Props, State> {
         <div className="inner">
         <div className="to-boe-bg">
               <Image
-                className="contact-mug to-mug"
+                className="contact-mug to-mug s2"
                 alt="front-logo"
                 src="/images/valor3-nobg.webp"
                 width="512"

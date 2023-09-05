@@ -20,7 +20,7 @@ export default class Ercknard extends Component<Props, State> {
         <div className="inner">
         <div className="to-loma-bg">
               <Image
-                className="contact-mug to-mug"
+                className="contact-mug to-mug s3"
                 alt="front-logo"
                 src="/images/loma3-nobg.webp"
                 width="512"

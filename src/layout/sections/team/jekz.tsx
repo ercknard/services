@@ -20,7 +20,7 @@ export default class Jekz extends Component<Props, State> {
         <div className="inner">
         <div className="to-seqsee-bg">
               <Image
-                className="contact-mug to-mug"
+                className="contact-mug to-mug s6"
                 alt="front-logo"
                 src="/images/seqsee-1-nobg.webp"
                 width="512"

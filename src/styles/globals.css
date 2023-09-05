@@ -4116,9 +4116,39 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
 /* -webkit-clip-path: polygon(100% 0, 100% 50%, 50% 100%, 0 50%, 0 0);
 clip-path: polygon(100% 0, 100% 65%, 50% 100%, 0 65%, 0 0); */
 border-radius: 0px 0px 50% 50%;
-  padding: 1rem;
-  filter: drop-shadow(5px 5px 3px black)
+padding: 1rem;
+  filter: drop-shadow(5px 5px 3px black);
+
 }
+
+/* .s1 {
+  border-bottom: 2px solid rgb(var(--octa));
+}
+
+.s2 {
+  border-bottom: 2px solid rgb(var(--primary));
+}
+
+.s3 {
+  border-bottom: 2px solid rgb(var(--secondary));
+}
+
+.s4 {
+  border-bottom: 2px solid rgb(var(--tertiary));
+}
+
+.s5 {
+  border-bottom: 2px solid rgb(var(--seventh));
+}
+
+
+.s6 {
+  border-bottom: 2px solid rgb(var(--quaternary));
+}
+
+.s7 {
+  border-bottom: 2px solid rgb(var(--quinary));
+} */
 
 /* .to-vani {
   background: linear-gradient(to top, black, transparent 70%), url("/images/vani-1.webp");

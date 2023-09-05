@@ -22,7 +22,7 @@ export default class Vanikoro extends Component<Props, State> {
         <div className="inner">
           <div className="to-vani-bg">
               <Image
-                className="contact-mug to-mug"
+                className="contact-mug to-mug s1"
                 alt="front-logo"
                 src="/images/vani-1-nobg.webp"
                 width="512"

@@ -31,7 +31,7 @@ var Squid = /** @class */ (function (_super) {
                 react_1["default"].createElement("div", { className: "flip-card-front to-boe" },
                     react_1["default"].createElement("div", { className: "inner" },
                         react_1["default"].createElement("div", { className: "to-boe-bg" },
-                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug", alt: "front-logo", src: "/images/valor3-nobg.webp", width: "512", height: "512" })),
+                            react_1["default"].createElement(image_1["default"], { className: "contact-mug to-mug s2", alt: "front-logo", src: "/images/valor3-nobg.webp", width: "512", height: "512" })),
                         react_1["default"].createElement("h3", null, "Boehmerang"),
                         react_1["default"].createElement("h4", null, " Developer "),
                         react_1["default"].createElement("p", { className: "to-primary1" }, "\u2756")),

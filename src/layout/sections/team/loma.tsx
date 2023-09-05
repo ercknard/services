@@ -19,8 +19,8 @@ export default class Loma extends Component<Props, State> {
                                   <div className="flip-card-front to-squid">
         <div className="inner">
         <div className="to-squid-bg">
-              <Image
-                className="contact-mug to-mug"
+              <Image 
+                className="contact-mug to-mug s5"
                 alt="front-logo"
                 src="/images/squid-nobg.webp"
                 width="512"
