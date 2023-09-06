@@ -64,9 +64,9 @@ export default class Landing extends Component<Props, State> {
           />
           <Image
             id="finalbg"
-            className="mid-land-pic"
+            className="mid-land-pic l"
             alt="front-logo"
-            src="/images/land-3.png"
+            src="/images/land-4.png"
             width="3620"
             height="2969"
           />
