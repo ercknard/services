@@ -5386,7 +5386,7 @@ document.onscroll = function () {
 
 $(function () {
   $(document).scroll(function () {
-    var $nav = $(".home-welcome-message");
+    var $nav = $(".home-message-size");
     $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
   });
 });

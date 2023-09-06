@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { Component } from "react";
 import AllScripts from "@/layout/components/scripts";
+import FacebookIcon from '@mui/icons-material/Facebook';
 type Props = {};
 type State = {};
 export default class Landing extends Component<Props, State> {
@@ -37,9 +38,10 @@ export default class Landing extends Component<Props, State> {
               className="home-welcome-border"
             >
               <div className="home-welcome-message">
-                <div> ❖ </div>
-                Welcome to
-                <div className="color-effect">CRYPTECH SERVICES </div>
+                <div className="home-message-size text-motion to-tertiary"> ❖ </div>
+                <div className="home-message-size"> Welcome to </div>
+                <div className="color-effect home-message-size">CRYPTECH SERVICES </div>
+                <p className="tagline"> Unlocking Tomorrow`s Digital Frontier with Cryptech Services: Your Vision, Our Expertise. </p>
               </div>
             </div>
           </div>

@@ -76,7 +76,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-primary s">
+                        <span className="text-motion section-title project-title to-primary s service-title">
                           {" "}
                           Full-Stack Web Development
                         </span>{" "}
@@ -106,7 +106,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-secondary s">
+                        <span className="text-motion section-title project-title to-secondary s service-title">
                           {" "}
                           Web3 And DAPP Development
                         </span>{" "}
@@ -135,7 +135,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-tertiary s">
+                        <span className="text-motion section-title project-title to-tertiary s service-title">
                           {" "}
                           Solidity Smart Contract Development
                         </span>{" "}
@@ -165,7 +165,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-seventh s">
+                        <span className="text-motion section-title project-title to-seventh s service-title">
                           {" "}
                           Web Design
                         </span>{" "}
@@ -194,7 +194,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-quaternary s">
+                        <span className="text-motion section-title project-title to-quaternary s service-title">
                           {" "}
                           Graphic Design
                         </span>
@@ -223,7 +223,7 @@ export default class Support extends Component<Props, State> {
                     <span className="nomors">
                       {" "}
                       <span>
-                        <span className="text-motion section-title project-title to-quinary s">
+                        <span className="text-motion section-title project-title to-quinary s service-title">
                           {" "}
                           Technical Consultation
                         </span>{" "}
