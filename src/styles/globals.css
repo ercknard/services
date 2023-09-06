@@ -717,6 +717,11 @@ li {
   z-index: 100 !important;
 }
 
+.project-button:hover {
+  transform: translateY(-1px);
+  filter: saturate(150%);
+}
+
 .project-button:active {
   transform: translateY(-3px);
   filter: saturate(150%);
@@ -3126,7 +3131,7 @@ li {
 }
 
 .to-indent-text {
-  text-indent: 20px !important;
+  text-indent: 20px;
 }
 
 .to-block {
