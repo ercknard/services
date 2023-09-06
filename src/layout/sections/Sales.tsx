@@ -71,7 +71,7 @@ export default class Sales extends Component<Props, State> {
                 </a>
             </div>
           </div>
-          <div className="we-do-container">
+          <div className="we-do-container sales-we-do">
             <div
               className="we-do"
               data-aos="fade-up"

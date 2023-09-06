@@ -1247,12 +1247,22 @@ li {
   z-index: 1;
 }
 
+@media (max-width: 1367px) {
+  .sales-we-do {
+    margin-top: 7.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .we-do-container,
   .we-do-container-1 {
     justify-content: unset !important;
     flex-wrap: wrap;
     margin-top: 2rem;
+  }
+
+  .sales-we-do {
+    margin-top: unset;
   }
 }
 
