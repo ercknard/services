@@ -72,7 +72,7 @@ var Support = /** @class */ (function (_super) {
                                                 "Full-Stack Web Development:"),
                                             " ",
                                             react_1["default"].createElement("br", null),
-                                            react_1["default"].createElement("span", { className: "section-desc to-indent-text" },
+                                            react_1["default"].createElement("span", { className: "section-desc" },
                                                 " ",
                                                 "Our full-stack web development approach involves proficiently handling both front-end and back-end aspects to deliver comprehensive and dynamic web solutions.")),
                                         " "))),
