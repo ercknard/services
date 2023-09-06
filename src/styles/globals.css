@@ -2295,6 +2295,11 @@ li {
 
 /*------------------------------------------------------------------*/
 
+.to-zdex {
+  z-index: 10;
+  filter: drop-shadow(2.5px 2.5px 1px black) !important;
+}
+
 .footer ul li::before {
   content: none;
 }
