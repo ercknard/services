@@ -1263,6 +1263,10 @@ li {
   z-index: 1;
 }
 
+.sales-we-do {
+  margin-top: 7rem;
+}
+
 @media (max-width: 1367px) {
   .sales-we-do {
     margin-top: 7.5rem;
