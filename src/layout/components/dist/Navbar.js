@@ -14,7 +14,7 @@ function MobileNav(_a) {
     return (React.createElement("div", { className: "absolute top-0 left-0 h-screen w-screen bg-black transform " + (open ? "-translate-x-0" : "-translate-x-full") + " transition-transform duration-300 ease-in-out filter drop-shadow-md " },
         React.createElement("div", { className: "flex items-center justify-center filter drop-shadow-md h-20" },
             " ",
-            React.createElement("a", { className: "text-xl font-semibold", href: "/" })),
+            React.createElement("a", { className: "text-xl font-semibold mt-3", href: "/" }, "Cryptech Services")),
         React.createElement("div", { className: "flex flex-col ml-4" },
             React.createElement("a", { className: "text-xl font-medium my-4", href: "#sales", onClick: function () {
                     return setTimeout(function () {
@@ -26,6 +26,11 @@ function MobileNav(_a) {
                         setOpen(!open);
                     }, 100);
                 } }, "Security Services"),
+            React.createElement("a", { className: "text-xl font-normal my-4", href: "#audits", onClick: function () {
+                    return setTimeout(function () {
+                        setOpen(!open);
+                    }, 100);
+                } }, "StackofStake Audit"),
             React.createElement("a", { className: "text-xl font-normal my-4", href: "#team", onClick: function () {
                     return setTimeout(function () {
                         setOpen(!open);

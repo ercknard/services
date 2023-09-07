@@ -21,8 +21,8 @@ function MobileNav({ open, setOpen }: any): React.JSX.Element {
       <div className="flex items-center justify-center filter drop-shadow-md h-20">
         {" "}
         {/*logo container*/}
-        <a className="text-xl font-semibold" href="/">
-          {/* ❖ */}
+        <a className="text-xl font-semibold mt-3" href="/">
+          Cryptech Services
         </a>
       </div>
       <div className="flex flex-col ml-4">
@@ -47,6 +47,17 @@ function MobileNav({ open, setOpen }: any): React.JSX.Element {
           }
         >
           Security Services
+        </a>
+        <a
+          className="text-xl font-normal my-4"
+          href="#audits"
+          onClick={() =>
+            setTimeout(() => {
+              setOpen(!open);
+            }, 100)
+          }
+        >
+          StackofStake Audit
         </a>
         <a
           className="text-xl font-normal my-4"
