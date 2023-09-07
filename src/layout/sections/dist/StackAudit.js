@@ -53,7 +53,7 @@ var StackAudit = /** @class */ (function (_super) {
                         react_1["default"].createElement(image_1["default"], { className: "ships-stake", 
                             // data-aos="fade"
                             // data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
-                            alt: "ships", src: "https://kb.stackofstake.com/wp-content/themes/stackofstake/img/Logo.svg", width: "250", height: "250" })))),
+                            alt: "ships", src: "/images/audit1.png", width: "500", height: "500" })))),
             react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/observe-up.webp", width: "3620", height: "1377" })));
     };
     return StackAudit;

@@ -2471,6 +2471,10 @@ li {
   height: 50%;
 } */
 
+.ships-stake {
+ filter: drop-shadow(1px 1px 1px rgb(var(--secondary-secon)));
+}
+
 .carousel-container {
   margin-top: -5rem;
   height: 26rem;
@@ -3525,7 +3529,8 @@ li {
   .title-metrix-mobile::before,
   .title-security::before,
   .title-support::before,
-  .title-team::before {
+  .title-team::before,
+  .title-audit::before {
     display: none;
   }
 }

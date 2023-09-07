@@ -61,9 +61,9 @@ penetration test in order to determine its exposure to a targeted attack.
                 // data-aos="fade"
                 // data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
                 alt="ships"
-                src="https://kb.stackofstake.com/wp-content/themes/stackofstake/img/Logo.svg"
-                width="250"
-                height="250"
+                src="/images/audit1.png"
+                width="500"
+                height="500"
               />
             </div>
           </div>
