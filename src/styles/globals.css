@@ -4653,3 +4653,14 @@ background: rgba( 255, 255, 255, 0.25 );
   font-size: var(--secon-ter-font) !important;
 }
 
+@media (max-width: 768px) {
+  .land-icons {
+    justify-content: center;
+    margin-top: 1rem;
+    display: none;
+    gap: 2rem;
+  }
+}
+
+
+
