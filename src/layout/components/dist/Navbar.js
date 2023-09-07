@@ -54,7 +54,9 @@ function Navbar() {
             React.createElement(MobileNav, { open: open, setOpen: setOpen }),
             React.createElement("div", { className: "w-1/5 flex items-center kolyo" },
                 React.createElement("a", { className: "to-hide text-2xl font-bold text-motion reflect-nav sorno sorno-1", href: "/", id: "header" },
-                    React.createElement("span", { className: "logos" }, " CRYPTECH \u2756 SERVICES "))),
+                    React.createElement("span", { className: "ct-logo" }, "\u2756"),
+                    " ",
+                    React.createElement("span", { className: "logos" }, " CRYPTECH SERVICES "))),
             React.createElement("div", { className: "w-3/5 flex justify-evenly items-center to-fonts sersyo" },
                 React.createElement("div", { className: "z-50 ham flex relative w-8 h-8 flex-col justify-between items-center md:hidden", onClick: function () {
                         setOpen(!open);
