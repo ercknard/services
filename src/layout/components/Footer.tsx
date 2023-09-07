@@ -19,7 +19,7 @@ export default class Footer extends Component<Props, State> {
           <div className="wave" id="wave3"></div>
           <div className="wave" id="wave4"></div>
         </div>
-        <div className="text-motion section-title-logo to-seventh team-title to-zdex">
+        <div className="text-motion section-title-logo to-tertiary team-title to-zdex">
               {" "}
               CRYPTECH ❖ SERVICES{" "}
             </div>

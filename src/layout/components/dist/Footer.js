@@ -30,7 +30,7 @@ var Footer = /** @class */ (function (_super) {
                 react_1["default"].createElement("div", { className: "wave", id: "wave2" }),
                 react_1["default"].createElement("div", { className: "wave", id: "wave3" }),
                 react_1["default"].createElement("div", { className: "wave", id: "wave4" })),
-            react_1["default"].createElement("div", { className: "text-motion section-title-logo to-seventh team-title to-zdex" },
+            react_1["default"].createElement("div", { className: "text-motion section-title-logo to-tertiary team-title to-zdex" },
                 " ",
                 "CRYPTECH \u2756 SERVICES",
                 " "),
