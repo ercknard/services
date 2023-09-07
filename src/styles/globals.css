@@ -3755,9 +3755,11 @@ li {
 
 .b1 {
   /* background-color: rgb(182, 67, 174, 0.5); */
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgb(var(--primary));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, .75));
   border-radius: 5px;
   filter: drop-shadow(15px 15px 1px rgb(var(--primary-secon)));
   border: 3px solid;
@@ -3772,9 +3774,14 @@ li {
 
 .b2 {
   /* background-color: rgb(182, 67, 174, 0.5); */
-  backdrop-filter: blur(16px) saturate(180%);
+  /* backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.75); */
+  background-color: rgb(var(--secondary));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, .75));
   border-radius: 5px;
   filter: drop-shadow(15px 15px 1px rgb(var(--secondary-secon)));
   border: 3px solid;
@@ -3789,9 +3796,14 @@ li {
 
 .b3 {
   /* background-color: rgb(182, 67, 174, 0.5); */
-  backdrop-filter: blur(16px) saturate(180%);
+  /* backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.75); */
+  background-color: rgb(var(--tertiary));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, .75));
   border-radius: 5px;
   filter: drop-shadow(15px 15px 1px rgb(var(--tertiary-secon)));
   border: 3px solid;
@@ -3806,9 +3818,14 @@ li {
 
 .b4 {
   /* background-color: rgb(182, 67, 174, 0.5); */
-  backdrop-filter: blur(16px) saturate(180%);
+  /* backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.75); */
+  background-color: rgb(var(--quaternary));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, .75));
   border-radius: 5px;
   filter: drop-shadow(15px 15px 1px rgb(var(--quaternary-secon)));
   border: 3px solid;
@@ -3823,9 +3840,14 @@ li {
 
 .b5 {
   /* background-color: rgb(182, 67, 174, 0.5); */
-  backdrop-filter: blur(16px) saturate(180%);
+  /* backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.75); */
+  background-color: rgb(var(--quinary));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, .75));
   border-radius: 5px;
   filter: drop-shadow(15px 15px 1px rgb(var(--quinary-secon)));
   border: 3px solid;
@@ -3857,9 +3879,14 @@ li {
 
 .b7 {
   /* background-color: rgb(182, 67, 174, 0.5); */
-  backdrop-filter: blur(16px) saturate(180%);
+  /* backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
+  background-color: rgba(17, 25, 40, 0.75); */
+  background-color: rgb(var(--seventh));
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.25),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, .75));
   border-radius: 5px;
   filter: drop-shadow(15px 15px 1px rgb(var(--seventh-secon)));
   border: 3px solid;

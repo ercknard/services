@@ -158,7 +158,7 @@ export default class Support extends Component<Props, State> {
                     <span className="to-center">
                       <Image
                         className="car b7"
-                        src="/images/undraw_heatmap_uyye.svg"
+                        src="/images/undraw_heatmap_uyye (1).svg"
                         alt="car"
                         width="500"
                         height="500"
@@ -187,7 +187,7 @@ export default class Support extends Component<Props, State> {
                     <span className="to-center">
                       <Image
                         className="car b4"
-                        src="/images/undraw_image_viewer_re_7ejc.svg"
+                        src="/images/undraw_design_team_re_gh2d.svg"
                         alt="car"
                         width="500"
                         height="500"
@@ -216,7 +216,7 @@ export default class Support extends Component<Props, State> {
                     <span className="to-center">
                       <Image
                         className="car b5"
-                        src="/images/undraw_instant_support_re_s7un.svg"
+                        src="/images/undraw_conference_re_2yld.svg"
                         alt="car"
                         width="500"
                         height="500"
