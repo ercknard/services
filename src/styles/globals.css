@@ -2301,6 +2301,11 @@ li {
 
 /*------------------------------------------------------------------*/
 
+.to-audit {
+  font-size: var(--special-font);
+  margin-top: .75rem;
+}
+
 .to-zdex {
   z-index: 10;
   filter: drop-shadow(2.5px 2.5px 1px black) !important;
@@ -3477,6 +3482,20 @@ li {
 
 .title-cryptech::before {
   content: "CRYPTECHTEST GAME";
+  position: absolute;
+  margin-top: -3rem;
+  color: wheat !important;
+  font-size: var(--primary-font);
+  opacity: 15%;
+  font-weight: 700;
+}
+
+.title-audit {
+  display: flex;
+}
+
+.title-audit::before {
+  content: "STACKOFSTAKE AUDIT";
   position: absolute;
   margin-top: -3rem;
   color: wheat !important;

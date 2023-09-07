@@ -9,6 +9,8 @@ import Navbar from '@/layout/components/Navbar';
 import Metrix from '@/layout/sections/Metrix';
 import MetrixMobile from '@/layout/sections/MetrixMobile';
 import ContactUs from '@/layout/components/Email';
+import StackAudit from '@/layout/sections/StackAudit';
+
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
       <Sales />
       <Support />
       <Services />
+      <StackAudit />
       <Contacts />
       <Metrix />
       <MetrixMobile />
