@@ -25,7 +25,7 @@ var StackAudit = /** @class */ (function (_super) {
         return _this;
     }
     StackAudit.prototype.render = function () {
-        return (react_1["default"].createElement("section", { className: "services-container", id: "services", "data-color": "rgb(176, 117, 248)" },
+        return (react_1["default"].createElement("section", { className: "services-container", id: "audits", "data-color": "rgb(176, 117, 248)" },
             react_1["default"].createElement("div", { className: "to-width to-flex to-height to-center to-column to-align" },
                 react_1["default"].createElement("div", { className: "to-flex" },
                     react_1["default"].createElement("div", { "data-aos": "fade-right", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom" },

@@ -153,9 +153,14 @@ export default function Navbar() {
             </span>
             <div className="dropdown">
               <button className="dropbtn">
-                METRIX <ArrowDropDownIcon />{" "}
+                PROJECTS <ArrowDropDownIcon />{" "}
               </button>
               <div className="dropdown-content">
+              <span className="kek">
+                  <NavLink to="#audits">
+                    <span id="met">STACKOFSTAKE AUDIT</span>
+                  </NavLink>
+                </span>
                 <span className="kek">
                   <NavLink to="#metrix">
                     <span id="met">METRIX.PLACE</span>

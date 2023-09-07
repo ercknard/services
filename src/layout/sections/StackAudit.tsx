@@ -10,7 +10,7 @@ export default class StackAudit extends Component<Props, State> {
     return (
       <section
         className="services-container"
-        id="services"
+        id="audits"
         data-color="rgb(176, 117, 248)"
       >
                 <div className="to-width to-flex to-height to-center to-column to-align">
