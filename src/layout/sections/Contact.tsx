@@ -8,6 +8,8 @@ import CodeOutlinedIcon from "@mui/icons-material/CodeOutlined";
 import DrawOutlinedIcon from "@mui/icons-material/DrawOutlined";
 import SupportAgentOutlinedIcon from "@mui/icons-material/SupportAgentOutlined";
 import ImageSlider from "@/layout/components/ImageSlider";
+import DataObjectIcon from '@mui/icons-material/DataObject';
+import BrushIcon from '@mui/icons-material/Brush';
 
 const images = [
   "/images/undraw_building_websites_i78t.svg",
@@ -137,7 +139,7 @@ export default class Support extends Component<Props, State> {
                       <span>
                         <span className="text-motion section-title project-title to-tertiary s service-title">
                           {" "}
-                          Solidity Smart Contract Development:
+                          Solidity Smart Contract:
                         </span>{" "}
                         <br></br>
                         <span className="section-desc">
@@ -280,10 +282,10 @@ export default class Support extends Component<Props, State> {
               >
                 <label htmlFor="slide-3">
                   <div className="icon">
-                    <CodeOutlinedIcon className="we-logo-third ico" />
+                    <DataObjectIcon className="we-logo-third ico" />
                   </div>
                   <div className="title">
-                    Solidity smart contract Development
+                    Solidity smart contract
                   </div>
                 </label>
               </li>
@@ -295,9 +297,9 @@ export default class Support extends Component<Props, State> {
               >
                 <label htmlFor="slide-4">
                   <div className="icon">
-                    <DesignServicesOutlinedIcon className="we-logo-seventh ico" />
+                    <BrushIcon className="we-logo-sixth ico" />
                   </div>
-                  <div className="title">Web Design</div>
+                  <div className="title">Web Designing</div>
                 </label>
               </li>
               <li

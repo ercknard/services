@@ -17,11 +17,11 @@ exports.__esModule = true;
 var image_1 = require("next/image");
 var react_1 = require("react");
 var LayersOutlined_1 = require("@mui/icons-material/LayersOutlined");
-var DesignServicesOutlined_1 = require("@mui/icons-material/DesignServicesOutlined");
 var CurrencyBitcoinOutlined_1 = require("@mui/icons-material/CurrencyBitcoinOutlined");
-var CodeOutlined_1 = require("@mui/icons-material/CodeOutlined");
 var DrawOutlined_1 = require("@mui/icons-material/DrawOutlined");
 var SupportAgentOutlined_1 = require("@mui/icons-material/SupportAgentOutlined");
+var DataObject_1 = require("@mui/icons-material/DataObject");
+var Brush_1 = require("@mui/icons-material/Brush");
 var images = [
     "/images/undraw_building_websites_i78t.svg",
     "/images/undraw_nakamoto_-2-iv6.svg",
@@ -101,7 +101,7 @@ var Support = /** @class */ (function (_super) {
                                         react_1["default"].createElement("span", null,
                                             react_1["default"].createElement("span", { className: "text-motion section-title project-title to-tertiary s service-title" },
                                                 " ",
-                                                "Solidity Smart Contract Development:"),
+                                                "Solidity Smart Contract:"),
                                             " ",
                                             react_1["default"].createElement("br", null),
                                             react_1["default"].createElement("span", { className: "section-desc" },
@@ -171,13 +171,13 @@ var Support = /** @class */ (function (_super) {
                         react_1["default"].createElement("li", { "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: "icos" },
                             react_1["default"].createElement("label", { htmlFor: "slide-3" },
                                 react_1["default"].createElement("div", { className: "icon" },
-                                    react_1["default"].createElement(CodeOutlined_1["default"], { className: "we-logo-third ico" })),
-                                react_1["default"].createElement("div", { className: "title" }, "Solidity smart contract Development"))),
+                                    react_1["default"].createElement(DataObject_1["default"], { className: "we-logo-third ico" })),
+                                react_1["default"].createElement("div", { className: "title" }, "Solidity smart contract"))),
                         react_1["default"].createElement("li", { "data-aos": "fade-up", "data-aos-duration": "2000", "data-aos-anchor-placement": "bottom-bottom", className: "icos" },
                             react_1["default"].createElement("label", { htmlFor: "slide-4" },
                                 react_1["default"].createElement("div", { className: "icon" },
-                                    react_1["default"].createElement(DesignServicesOutlined_1["default"], { className: "we-logo-seventh ico" })),
-                                react_1["default"].createElement("div", { className: "title" }, "Web Design"))),
+                                    react_1["default"].createElement(Brush_1["default"], { className: "we-logo-sixth ico" })),
+                                react_1["default"].createElement("div", { className: "title" }, "Web Designing"))),
                         react_1["default"].createElement("li", { "data-aos": "fade-up", "data-aos-duration": "2500", "data-aos-anchor-placement": "bottom-bottom", className: "icos" },
                             react_1["default"].createElement("label", { htmlFor: "slide-5" },
                                 react_1["default"].createElement("div", { className: "icon" },

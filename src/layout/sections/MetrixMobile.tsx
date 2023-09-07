@@ -83,30 +83,35 @@ export default class MetrixMobile extends Component<Props, State> {
               /> */}
               <div className="gallery-1">
                 <Image
+                className="metrix-bgs"
                   src="/images/unnamed2.webp"
                   alt="mrx"
                   width="810"
                   height="1440"
                 />
                 <Image
+                className="metrix-bgs"
                   src="/images/unnamed1.webp"
                   alt="mrx"
                   width="810"
                   height="1440"
                 />
                 <Image
+                className="metrix-bgs"
                   src="/images/unnamed0.webp"
                   alt="mrx"
                   width="810"
                   height="1440"
                 />
                 <Image
+                className="metrix-bgs"
                   src="/images/unnamed3.webp"
                   alt="mrx"
                   width="810"
                   height="1440"
                 />
                 <Image
+                className="metrix-bgs"
                   src="/images/unnamed4.webp"
                   alt="mrx"
                   width="810"
@@ -114,6 +119,7 @@ export default class MetrixMobile extends Component<Props, State> {
                 />
 
                 <Image
+                className="metrix-bgs"
                   src="/images/unnamed3.webp"
                   alt="mrx"
                   width="810"
