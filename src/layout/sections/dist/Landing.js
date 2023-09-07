@@ -17,6 +17,11 @@ exports.__esModule = true;
 var image_1 = require("next/image");
 var react_1 = require("react");
 var scripts_1 = require("@/layout/components/scripts");
+var CurrencyBitcoinOutlined_1 = require("@mui/icons-material/CurrencyBitcoinOutlined");
+var PrecisionManufacturingOutlined_1 = require("@mui/icons-material/PrecisionManufacturingOutlined");
+var ShieldOutlined_1 = require("@mui/icons-material/ShieldOutlined");
+var DesignServicesOutlined_1 = require("@mui/icons-material/DesignServicesOutlined");
+var SupportAgentOutlined_1 = require("@mui/icons-material/SupportAgentOutlined");
 var Landing = /** @class */ (function (_super) {
     __extends(Landing, _super);
     function Landing() {
@@ -36,7 +41,13 @@ var Landing = /** @class */ (function (_super) {
                             react_1["default"].createElement("div", { className: "home-message-size text-motion to-tertiary" }, " \u2756 "),
                             react_1["default"].createElement("div", { className: "home-message-size" }, " Welcome to "),
                             react_1["default"].createElement("div", { className: "color-effect home-message-size" }, "CRYPTECH SERVICES "),
-                            react_1["default"].createElement("p", { className: "tagline" }, " Unlocking Tomorrow`s Digital Frontier with Cryptech Services: Your Vision, Our Expertise. ")))),
+                            react_1["default"].createElement("p", { className: "tagline" }, " Unlocking Tomorrow`s Digital Frontier with Cryptech Services: Your Vision, Our Expertise. "),
+                            react_1["default"].createElement("div", { className: "land-icons" },
+                                react_1["default"].createElement(CurrencyBitcoinOutlined_1["default"], { className: "land-size we-logo-first" }),
+                                react_1["default"].createElement(PrecisionManufacturingOutlined_1["default"], { className: "land-size we-logo-second" }),
+                                react_1["default"].createElement(ShieldOutlined_1["default"], { className: "land-size we-logo-third" }),
+                                react_1["default"].createElement(DesignServicesOutlined_1["default"], { className: "land-size we-logo-fourth" }),
+                                react_1["default"].createElement(SupportAgentOutlined_1["default"], { className: "land-size we-logo-fifth" }))))),
                 react_1["default"].createElement(image_1["default"], { priority: true, quality: 100, id: "primary-front-bgs", className: "front-land-pic bgs-sen", alt: "front-logo", src: "/images/frontsss-a.webp", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { priority: true, id: "secondary-front-bg", className: "mids-land-pic to-glow", alt: "front-logo", src: "/images/moon-a.webp", width: "3620", height: "1671" }),
                 react_1["default"].createElement(image_1["default"], { id: "finalbg", className: "mid-land-pic l", alt: "front-logo", src: "/images/land-7.png", width: "3620", height: "2969" }),

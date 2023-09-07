@@ -4642,4 +4642,14 @@ background: rgba( 255, 255, 255, 0.25 );
   color: rgb(var(--octa-secon)) !important;
 }
 
+.land-icons {
+  justify-content: center;
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.land-size {
+  font-size: var(--secon-ter-font) !important;
+}
 

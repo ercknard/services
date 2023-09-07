@@ -3,6 +3,14 @@ import Image from "next/image";
 import React, { Component } from "react";
 import AllScripts from "@/layout/components/scripts";
 import FacebookIcon from '@mui/icons-material/Facebook';
+import CurrencyBitcoinOutlinedIcon from "@mui/icons-material/CurrencyBitcoinOutlined";
+import PrecisionManufacturingOutlinedIcon from "@mui/icons-material/PrecisionManufacturingOutlined";
+import ShieldOutlinedIcon from "@mui/icons-material/ShieldOutlined";
+import DesignServicesOutlinedIcon from "@mui/icons-material/DesignServicesOutlined";
+import SupportAgentOutlinedIcon from "@mui/icons-material/SupportAgentOutlined";
+import ExtensionOutlinedIcon from "@mui/icons-material/ExtensionOutlined";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 type Props = {};
 type State = {};
 export default class Landing extends Component<Props, State> {
@@ -42,6 +50,7 @@ export default class Landing extends Component<Props, State> {
                 <div className="home-message-size"> Welcome to </div>
                 <div className="color-effect home-message-size">CRYPTECH SERVICES </div>
                 <p className="tagline"> Unlocking Tomorrow`s Digital Frontier with Cryptech Services: Your Vision, Our Expertise. </p>
+                <div className="land-icons"><CurrencyBitcoinOutlinedIcon className="land-size we-logo-first"/><PrecisionManufacturingOutlinedIcon className="land-size we-logo-second"/><ShieldOutlinedIcon className="land-size we-logo-third"/><DesignServicesOutlinedIcon className="land-size we-logo-fourth"/><SupportAgentOutlinedIcon className="land-size we-logo-fifth"/></div>
               </div>
             </div>
           </div>
