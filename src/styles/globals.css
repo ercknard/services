@@ -39,6 +39,8 @@ html {
   --octa-secon: 240, 208, 86;
   --nona: 134, 45, 42;
   --nona-secon: 255, 94, 90;
+  --tenth: 255, 125, 90;
+  --tenth-secon: 255, 125, 90;
 
   --gifted-font: 5em;
   --primary-font: 4em;
@@ -1526,10 +1528,11 @@ li {
 }
 
 .team-title {
+  margin-top: -10rem;
 }
 
 .to-large {
-  width: 90%;
+  width: 170%;
 }
 
 @media (max-width: 1920px) {
@@ -1540,6 +1543,10 @@ li {
 
   .team-title {
     margin-top: 0rem;
+  }
+
+  .teams-con {
+    margin-top: 10rem;
   }
 }
 

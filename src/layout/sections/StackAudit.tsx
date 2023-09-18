@@ -20,6 +20,10 @@ export default class StackAudit extends Component<Props, State> {
               data-aos-duration="1500"
               data-aos-anchor-placement="bottom-bottom"
             >
+                          <div className="text-motion section-title-logo to-secondary team-title">
+              {" "}
+              ❖{" "}
+            </div>
               <div className="title-audit to-centers">
                 <div className="text-motion section-title project-title to-secondary">
                   {" "}
