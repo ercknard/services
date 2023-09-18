@@ -11,8 +11,8 @@ export default class Squid extends Component<Props, State> {
     return (
                   <div
               data-aos="fade-up"
-              data-aos-duration="1000"
-              data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="1000"
+              // data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-1 contacts-container"
             >
                                   <div className="flip-card">

@@ -26,7 +26,10 @@ var Raz = /** @class */ (function (_super) {
         return _this;
     }
     Raz.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-down", "data-aos-duration": "750", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-8 contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-down", 
+            //   data-aos-duration="750"
+            //   data-aos-anchor-placement="bottom-bottom"
+            className: "contacts-container-8 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
                 react_1["default"].createElement("div", { className: "flip-card-front to-raz" },
                     react_1["default"].createElement("div", { className: "inner" },

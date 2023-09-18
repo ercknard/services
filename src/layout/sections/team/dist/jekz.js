@@ -26,7 +26,10 @@ var Jekz = /** @class */ (function (_super) {
         return _this;
     }
     Jekz.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "2000", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-5 contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-up", 
+            // data-aos-duration="2000"
+            // data-aos-anchor-placement="bottom-bottom"
+            className: "contacts-container-5 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
                 react_1["default"].createElement("div", { className: "flip-card-front to-seqsee" },
                     react_1["default"].createElement("div", { className: "inner" },

@@ -11,8 +11,8 @@ export default class Boehmerang extends Component<Props, State> {
     return (
                                                 <div
               data-aos="fade-down"
-              data-aos-duration="2250"
-              data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="2250"
+              // data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-6 contacts-container"
             >
                                   <div className="flip-card">

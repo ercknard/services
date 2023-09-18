@@ -26,7 +26,10 @@ var Squid = /** @class */ (function (_super) {
         return _this;
     }
     Squid.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1000", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-1 contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-up", 
+            // data-aos-duration="1000"
+            // data-aos-anchor-placement="bottom-bottom"
+            className: "contacts-container-1 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
                 react_1["default"].createElement("div", { className: "flip-card-front to-boe" },
                     react_1["default"].createElement("div", { className: "inner" },

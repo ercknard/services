@@ -26,7 +26,10 @@ var Seqsee = /** @class */ (function (_super) {
         return _this;
     }
     Seqsee.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", "data-aos-duration": "1500", "data-aos-anchor-placement": "bottom-bottom", className: "contacts-container-3 contacts-container" },
+        return (react_1["default"].createElement("div", { "data-aos": "fade-up", 
+            // data-aos-duration="1500"
+            // data-aos-anchor-placement="bottom-bottom"
+            className: "contacts-container-3 contacts-container" },
             react_1["default"].createElement("div", { className: "flip-card" },
                 react_1["default"].createElement("div", { className: "flip-card-front to-jekz" },
                     react_1["default"].createElement("div", { className: "inner" },

@@ -11,8 +11,8 @@ export default class Jekz extends Component<Props, State> {
     return (
 <div
               data-aos="fade-up"
-              data-aos-duration="2000"
-              data-aos-anchor-placement="bottom-bottom"
+              // data-aos-duration="2000"
+              // data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-5 contacts-container"
             >
                                   <div className="flip-card">
