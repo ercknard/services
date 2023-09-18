@@ -10,6 +10,7 @@ import Jekz from "./team/jekz";
 import Boehmerang from "./team/boehmerang";
 import Loma from "./team/loma";
 import Vanikoro from "./team/vanikoro";
+import Raz from "./team/raz";
 type Props = {};
 type State = {};
 export default class Team extends Component<Props, State> {
@@ -44,8 +45,9 @@ export default class Team extends Component<Props, State> {
           </div>
           {/* <div className="to-flex to-flex-evenly width-team koto to-large">
             </div> */}
-            <div className="to-flex to-flex-evenly width-team koto to-large to-bottom-space">
+            <div className="to-flex to-flex-evenly width-team koto to-large to-bottom-space to-wrap">
             <Vanikoro />
+            <Raz />
             <Squid />
             <Ercknard />
             <Seqsee />

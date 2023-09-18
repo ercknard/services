@@ -12,7 +12,7 @@ export default class Vanikoro extends Component<Props, State> {
 
             <div
               data-aos="fade-up"
-              data-aos-duration="750"
+              data-aos-duration="500"
               data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-7 contacts-container"
             >
@@ -24,7 +24,7 @@ export default class Vanikoro extends Component<Props, State> {
               <Image
                 className="contact-mug to-mug s1"
                 alt="front-logo"
-                src="/images/vani-2-nobg.webp"
+                src="/images/vani-1-nobg.webp"
                 width="512"
                 height="512"
               />

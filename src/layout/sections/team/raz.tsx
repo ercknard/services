@@ -5,61 +5,61 @@ import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
 import AlternateEmailOutlinedIcon from "@mui/icons-material/AlternateEmailOutlined";
 type Props = {};
 type State = {};
-export default class Seqsee extends Component<Props, State> {
+export default class Raz extends Component<Props, State> {
   state = {};
   render() {
     return (
             <div
-              data-aos="fade-up"
-              data-aos-duration="1500"
+              data-aos="fade-down"
+              data-aos-duration="750"
               data-aos-anchor-placement="bottom-bottom"
-              className="contacts-container-3 contacts-container"
+              className="contacts-container-8 contacts-container"
             >
                                   <div className="flip-card">
-                                  <div className="flip-card-front to-jekz">
+                                  <div className="flip-card-front to-raz">
         <div className="inner">
-        <div className="to-jekz-bg">
+        <div className="to-raz-bg">
               <Image
-                className="contact-mug to-mug s4"
+                className="contact-mug to-mug s8"
                 alt="front-logo"
-                src="/images/jekz9-bg.webp"
+                src="/images/raz-nobg-2.webp"
                 width="512"
                 height="512"
               />
               </div>
-              <h3> Jekz </h3>
+              <h3> RasAlGhul </h3>
               {/* <h4><span className="to-tertiary1">❖</span> Penetration Tester <span className="to-tertiary1">❖</span></h4> */}
-              <h4> Security Researcher </h4>
+              <h4> Developer </h4>
               <p className="to-tertiary1">
                         ❖
           </p>
               </div>
               </div>
 
-<div className="flip-card-back to-jekz">
+<div className="flip-card-back to-raz">
         <div className="inner">
-        <div className="to-jekz-bg1">
+        <div className="to-raz-bg1">
               <Image
                 className="contact-mug"
                 alt="front-logo"
-                src="/images/jekz8.webp"
+                src="/images/raz.webp"
                 width="512"
                 height="512"
               />
               </div>
               <div className="details-bg">
-                <div className="contact-name seq-name"> Jekz </div>
+                <div className="contact-name raz-name"> RasAlGhul </div>
                 <div className="contact-description">
                   <ul>
-                    <li className="seqsee-list"> Security Researcher </li>
-                    <li className="seqsee-list"> Graphic Artist </li>
-                    <li className="seqsee-list"> Penetration Tester </li>
+                    <li className="raz-list"> Photograher </li>
+                    <li className="raz-list"> Consultant </li>
+                    <li className="raz-list"> Developer </li>
                   </ul>
                 </div>
                 <div className="to-flex to-gap z">
                   <a
-                    className="contact-button seqsee"
-                    href="https://discord.com/users/943186466744463421"
+                    className="contact-button raz"
+                    href="https://discord.com/users/306288896516423680"
                     target="_blank"
                   >
                     <div>
@@ -69,8 +69,8 @@ export default class Seqsee extends Component<Props, State> {
                     </div>
                   </a>
                   <a
-                    className="contact-button seqsee t"
-                    href="mailto:jekz@cryptech.services"
+                    className="contact-button raz t"
+                    href="mailto:ras@cryptech.services"
                     target="_blank"
                   >
                     <div>
