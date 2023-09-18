@@ -1529,7 +1529,7 @@ li {
 }
 
 .to-large {
-  width: 100%;
+  width: 90%;
 }
 
 @media (max-width: 1920px) {
@@ -1574,6 +1574,7 @@ li {
   /* max-width: 15.75%; */
   width: 15.75% !important;
   min-width: 300px !important;
+  max-width: 300px !important;
   transition: 0.5s linear;
   margin-left: .25rem;
   margin-right: .25rem;
