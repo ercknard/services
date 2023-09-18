@@ -20,7 +20,7 @@ export default class StackAudit extends Component<Props, State> {
               data-aos-duration="1500"
               data-aos-anchor-placement="bottom-bottom"
             >
-              <div className="title-audit">
+              <div className="title-audit to-centers">
                 <div className="text-motion section-title project-title to-secondary">
                   {" "}
                   STACKOFSTAKE AUDIT{" "}
@@ -30,7 +30,7 @@ export default class StackAudit extends Component<Props, State> {
                 data-aos="fade-right"
                 data-aos-duration="1500"
                 data-aos-anchor-placement="bottom-bottom"
-                className="section-desc"
+                className="section-desc to-centers"
               >
                 {" "}
                 Cryptech Services was contracted by{" "}
@@ -40,8 +40,8 @@ export default class StackAudit extends Component<Props, State> {
                 project to conduct a 
 penetration test in order to determine its exposure to a targeted attack.
               </div>
-              <div className="to-flex to-gap-1">
-              <span className="to-audit"> View Audit Report :</span>
+              <div className="to-flex to-centers">
+              <span className="to-audit"> View Audit Report : </span>
                 <a
                   className="project-button to-secondary"
                   href="https://kb.stackofstake.com/wp-content/uploads/2020/11/stackofstake-com-audit-cryptech-services.pdf"
@@ -54,17 +54,6 @@ penetration test in order to determine its exposure to a targeted attack.
                   </div>
                 </a>
               </div>
-            </div>
-            <div className="we-do-container">
-              <Image
-                className="ships-stake"
-                // data-aos="fade"
-                // data-aos-duration="1500" data-aos-anchor-placement="bottom-bottom"
-                alt="ships"
-                src="/images/audit1.png"
-                width="500"
-                height="500"
-              />
             </div>
           </div>
         </div>

@@ -404,6 +404,17 @@ li {
   margin-right: auto;
 }
 
+.to-centers {
+  justify-content: center !important;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center !important;
+}
+
+.to-justify {
+  justify-content: center;
+}
+
 .to-flex {
   display: flex;
   justify-content: space-between;
@@ -1571,6 +1582,12 @@ li {
   perspective: 1000px; */
 }
 
+/* @media (min-height: 1430px) {
+  .contacts-container {
+    min-width: 400px !important;
+  }
+} */
+
 @media (max-width: 1920px) {
   .contacts-container {
     min-width: 13.5%;
@@ -2389,6 +2406,7 @@ li {
 .to-audit {
   font-size: var(--special-font);
   margin-top: .75rem;
+  margin-right: 1rem;
 }
 
 .to-zdex {

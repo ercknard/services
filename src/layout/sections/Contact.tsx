@@ -139,7 +139,7 @@ export default class Support extends Component<Props, State> {
                       <span>
                         <span className="text-motion section-title project-title to-tertiary s service-title">
                           {" "}
-                          Solidity Smart Contract:
+                          Solidity Development:
                         </span>{" "}
                         <br></br>
                         <span className="section-desc">
@@ -285,7 +285,7 @@ export default class Support extends Component<Props, State> {
                     <DataObjectIcon className="we-logo-third ico" />
                   </div>
                   <div className="title">
-                    Solidity smart contract
+                    Solidity Development
                   </div>
                 </label>
               </li>
@@ -299,7 +299,7 @@ export default class Support extends Component<Props, State> {
                   <div className="icon">
                     <BrushIcon className="we-logo-sixth ico" />
                   </div>
-                  <div className="title">Web Designing</div>
+                  <div className="title">Web Design</div>
                 </label>
               </li>
               <li
