@@ -4299,6 +4299,11 @@ li {
   z-index: 2;
 }
 
+.flip-card-front .inner {
+  transform: translateY(-50%) translateZ(100px) scale(.9);
+  left: 0;
+}
+
 
 .flip-card-back .inner {
   transform: translateY(-50%) translateZ(100px) scale(.8);
