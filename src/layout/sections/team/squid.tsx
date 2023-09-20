@@ -44,6 +44,13 @@ export default class Squid extends Component<Props, State> {
                 width="512"
                 height="512"
               />
+                                                                                                                <Image
+                className="contact-mug s7 to-special-erc to-abs"
+                alt="front-logo"
+                src="/images/valor3-nobg.webp"
+                width="512"
+                height="512"
+              />
               </div>
               <div className="details-bg">
                 <div className="contact-name squid-name"> Boehmerang </div>
