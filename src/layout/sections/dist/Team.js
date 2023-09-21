@@ -34,7 +34,6 @@ var Team = /** @class */ (function (_super) {
     Team.prototype.render = function () {
         return (react_1["default"].createElement("section", { id: "team", className: "team-container", "data-color": "rgb(176, 117, 248)" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
-                react_1["default"].createElement("div", { className: "so-space" }),
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: "text-motion section-title-logo to-secondary team-title" },
                         " ",

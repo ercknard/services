@@ -23,7 +23,7 @@ export default class Team extends Component<Props, State> {
         data-color="rgb(176, 117, 248)"
       >
         <div className="to-width to-height to-center to-flex-column">
-          <div className="so-space"></div>
+          {/* <div className="so-space"></div> */}
           <div>
             <div className="text-motion section-title-logo to-secondary team-title">
               {" "}
