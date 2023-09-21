@@ -1592,13 +1592,13 @@ li {
   perspective: 1000px; */
 }
 
-.contacts-container:nth-child(even) {
+/* .contacts-container:nth-child(even) {
   margin-top: 5rem;
 }
 
 .contacts-container:nth-child(odd) {
   margin-bottom: 5rem;
-}
+} */
 
 /* @media (min-height: 1430px) {
   .contacts-container {
