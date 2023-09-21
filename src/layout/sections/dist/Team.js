@@ -34,6 +34,7 @@ var Team = /** @class */ (function (_super) {
     Team.prototype.render = function () {
         return (react_1["default"].createElement("section", { id: "team", className: "team-container", "data-color": "rgb(176, 117, 248)" },
             react_1["default"].createElement("div", { className: "to-width to-height to-center to-flex-column" },
+                react_1["default"].createElement("div", { className: "so-space" }),
                 react_1["default"].createElement("div", null,
                     react_1["default"].createElement("div", { className: "text-motion section-title-logo to-secondary team-title" },
                         " ",
@@ -60,7 +61,8 @@ var Team = /** @class */ (function (_super) {
                     react_1["default"].createElement(seqsee_1["default"], null),
                     react_1["default"].createElement(loma_1["default"], null),
                     react_1["default"].createElement(jekz_1["default"], null),
-                    react_1["default"].createElement(boehmerang_1["default"], null))),
+                    react_1["default"].createElement(boehmerang_1["default"], null)),
+                react_1["default"].createElement("div", { className: "so-space" })),
             react_1["default"].createElement(image_1["default"], { className: "team-land-pic", alt: "front-logo", src: "/images/team3.webp", width: "3620", height: "1670" }),
             react_1["default"].createElement(image_1["default"], { className: "sales-1-land-pic", alt: "front-logo", src: "/images/to-center-up.webp", width: "3620", height: "1377" })));
     };

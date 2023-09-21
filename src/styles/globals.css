@@ -241,6 +241,8 @@ li {
     display: flex !important;
     flex-wrap: wrap !important;
     margin-bottom: unset;
+    row-gap: unset !important;
+    column-gap: unset !important;
   }
 }
 
@@ -1994,7 +1996,7 @@ li {
   .contacts-container-2::after,
   .contacts-container-1::after,
   .contacts-container-7::after,
-  .contacts-container-7::after
+  .contacts-container-8::after
    {
     display: none;
   }
@@ -5188,6 +5190,20 @@ transform: rotate(45deg);
     gap: 2rem;
   }
 }
+
+@media (max-width: 1920px) {
+  .so-space {
+margin-top: 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .so-space {
+margin-top: unset;
+  }
+}
+
+
 
 
 
