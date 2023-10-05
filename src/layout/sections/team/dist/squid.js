@@ -26,7 +26,8 @@ var Squid = /** @class */ (function (_super) {
         return _this;
     }
     Squid.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", 
+        return (react_1["default"].createElement("div", { 
+            // data-aos="fade-up"
             // data-aos-duration="1000"
             // data-aos-anchor-placement="bottom-bottom"
             className: "contacts-container-1 contacts-container" },

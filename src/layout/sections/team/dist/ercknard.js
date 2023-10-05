@@ -26,7 +26,8 @@ var Ercknard = /** @class */ (function (_super) {
         return _this;
     }
     Ercknard.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-down", 
+        return (react_1["default"].createElement("div", { 
+            // data-aos="fade-down"
             // data-aos-duration="1250"
             // data-aos-anchor-placement="bottom-bottom"
             className: "contacts-container-2 contacts-container" },

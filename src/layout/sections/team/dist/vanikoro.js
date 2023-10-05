@@ -26,7 +26,8 @@ var Vanikoro = /** @class */ (function (_super) {
         return _this;
     }
     Vanikoro.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-up", 
+        return (react_1["default"].createElement("div", { 
+            // data-aos="fade-up"
             // data-aos-duration="500"
             // data-aos-anchor-placement="bottom-bottom"
             className: "contacts-container-7 contacts-container" },
