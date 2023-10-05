@@ -11,7 +11,7 @@ export default class Vanikoro extends Component<Props, State> {
     return (
 
             <div
-              data-aos="fade-up"
+              // data-aos="fade-up"
               // data-aos-duration="500"
               // data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-7 contacts-container"

@@ -10,7 +10,7 @@ export default class Squid extends Component<Props, State> {
   render() {
     return (
                   <div
-              data-aos="fade-up"
+              // data-aos="fade-up"
               // data-aos-duration="1000"
               // data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-1 contacts-container"

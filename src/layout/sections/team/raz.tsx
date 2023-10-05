@@ -10,7 +10,7 @@ export default class Raz extends Component<Props, State> {
   render() {
     return (
             <div
-              data-aos="fade-down"
+              // data-aos="fade-down"
             //   data-aos-duration="750"
             //   data-aos-anchor-placement="bottom-bottom"
               className="contacts-container-8 contacts-container"

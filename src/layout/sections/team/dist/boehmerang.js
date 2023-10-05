@@ -26,7 +26,8 @@ var Boehmerang = /** @class */ (function (_super) {
         return _this;
     }
     Boehmerang.prototype.render = function () {
-        return (react_1["default"].createElement("div", { "data-aos": "fade-down", 
+        return (react_1["default"].createElement("div", { 
+            // data-aos="fade-down"
             // data-aos-duration="2250"
             // data-aos-anchor-placement="bottom-bottom"
             className: "contacts-container-6 contacts-container" },
