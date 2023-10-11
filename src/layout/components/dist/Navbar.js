@@ -26,11 +26,6 @@ function MobileNav(_a) {
                         setOpen(!open);
                     }, 100);
                 } }, "Security Services"),
-            React.createElement("a", { className: "text-xl font-normal my-4", href: "#audits", onClick: function () {
-                    return setTimeout(function () {
-                        setOpen(!open);
-                    }, 100);
-                } }, "StackofStake Audit"),
             React.createElement("a", { className: "text-xl font-normal my-4", href: "#team", onClick: function () {
                     return setTimeout(function () {
                         setOpen(!open);
@@ -85,9 +80,6 @@ function Navbar() {
                             React.createElement(ArrowDropDown_1["default"], null),
                             " "),
                         React.createElement("div", { className: "dropdown-content" },
-                            React.createElement("span", { className: "kek" },
-                                React.createElement(NavLink, { to: "#audits" },
-                                    React.createElement("span", { id: "met" }, "STACKOFSTAKE AUDIT"))),
                             React.createElement("span", { className: "kek" },
                                 React.createElement(NavLink, { to: "#metrix" },
                                     React.createElement("span", { id: "met" }, "METRIX.PLACE"))),

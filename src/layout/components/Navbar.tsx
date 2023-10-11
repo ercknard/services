@@ -48,7 +48,7 @@ function MobileNav({ open, setOpen }: any): React.JSX.Element {
         >
           Security Services
         </a>
-        <a
+        {/* <a
           className="text-xl font-normal my-4"
           href="#audits"
           onClick={() =>
@@ -58,7 +58,7 @@ function MobileNav({ open, setOpen }: any): React.JSX.Element {
           }
         >
           StackofStake Audit
-        </a>
+        </a> */}
         <a
           className="text-xl font-normal my-4"
           href="#team"
@@ -167,11 +167,11 @@ export default function Navbar() {
                 PROJECTS <ArrowDropDownIcon />{" "}
               </button>
               <div className="dropdown-content">
-              <span className="kek">
+              {/* <span className="kek">
                   <NavLink to="#audits">
                     <span id="met">STACKOFSTAKE AUDIT</span>
                   </NavLink>
-                </span>
+                </span> */}
                 <span className="kek">
                   <NavLink to="#metrix">
                     <span id="met">METRIX.PLACE</span>
