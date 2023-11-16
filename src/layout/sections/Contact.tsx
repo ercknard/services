@@ -8,8 +8,8 @@ import CodeOutlinedIcon from "@mui/icons-material/CodeOutlined";
 import DrawOutlinedIcon from "@mui/icons-material/DrawOutlined";
 import SupportAgentOutlinedIcon from "@mui/icons-material/SupportAgentOutlined";
 import ImageSlider from "@/layout/components/ImageSlider";
-import DataObjectIcon from '@mui/icons-material/DataObject';
-import BrushIcon from '@mui/icons-material/Brush';
+import DataObjectIcon from "@mui/icons-material/DataObject";
+import BrushIcon from "@mui/icons-material/Brush";
 
 const images = [
   "/images/undraw_building_websites_i78t.svg",
@@ -35,10 +35,7 @@ export default class Support extends Component<Props, State> {
       >
         <div className="to-width to-height to-center to-flex-column">
           <div className="to-left">
-            <div className="text-motion section-title-logo to-primary">
-              {" "}
-              ❖{" "}
-            </div>
+            <div className="text-motion section-title-logo to-primary"> ❖ </div>
             <div className="title-support">
               <div className="text-motion section-title to-primary">
                 {" "}
@@ -53,7 +50,7 @@ export default class Support extends Component<Props, State> {
               services we offer:{" "}
             </div> */}
           </div>
-          {/* <ImageSlider images={images} /> */}
+          {/* <ImageSlider images={images}/> */}
 
           <div className="containers">
             <div className="carousels">
@@ -284,9 +281,7 @@ export default class Support extends Component<Props, State> {
                   <div className="icon">
                     <DataObjectIcon className="we-logo-third ico" />
                   </div>
-                  <div className="title">
-                    Solidity Development
-                  </div>
+                  <div className="title">Solidity Development</div>
                 </label>
               </li>
               <li
@@ -371,7 +366,7 @@ export default class Support extends Component<Props, State> {
           height="1671"
         /> */}
 
-                {/* <Image
+        {/* <Image
           className="sales-1-land-pic"
           alt="front-logo"
           src="/images/to-center-up-left.webp"
@@ -379,14 +374,13 @@ export default class Support extends Component<Props, State> {
           height="1377"
         /> */}
 
-                        <Image
+        <Image
           className="sales-1-land-pic"
           alt="front-logo"
           src="/images/observe-up.webp"
           width="3620"
           height="1377"
         />
-
       </section>
     );
   }
